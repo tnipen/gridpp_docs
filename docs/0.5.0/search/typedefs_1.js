@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['dvec',['dvec',['../gridpp_8h.html#ac6aa1a2351760492203846ae74778c05',1,'gridpp.h']]],
-  ['dvec2',['dvec2',['../gridpp_8h.html#a2006ef1dc1de63f50b13ee8566746dc6',1,'gridpp.h']]]
+  ['dvec',['dvec',['../namespacegridpp.html#a0dd1f594ca840d3dfa9e325323370eff',1,'gridpp']]],
+  ['dvec2',['dvec2',['../namespacegridpp.html#a9c5ff461c5b001b846617521357f1b4d',1,'gridpp']]]
 ];
