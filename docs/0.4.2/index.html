@@ -5,13 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gridded post-processor: griddpp v0.4.2</title>
+<title>Gridpp 0.4.2: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -21,10 +24,25 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">gridpp 0.4.2
+   <div id="projectname">Gridpp 0.4.2
    </div>
-   <div id="projectbrief">A framework for post-processing gridded weather forecasts</div>
+   <div id="projectbrief">A post-processing library for gridded weather forecasts</div>
   </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -34,15 +52,6 @@
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-</script>
-<div id="main-nav"></div>
 </div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -60,68 +69,15 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Gridded post-processor </div>  </div>
+<div class="title">Gridpp 0.4.2 Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="image">
-<img src="https://travis-ci.org/metno/gridpp.svg?branch=master" alt="alt text" title="https://travis-ci.org/metno/gridpp"/>
-</div>
- <div class="image">
-<img src="https://coveralls.io/repos/metno/gridpp/badge.svg?branch=master&service=github" alt="alt text" title="https://coveralls.io/github/metno/gridpp?branch=master"/>
-</div>
-<p>Gridpp a is post-processing tool for gridded weather forecasts. It consists of a <b>library</b> of commonly-used methods and a <b>command-line tool</b> that applies these methods to forecast fields in NetCDF files.</p>
-<p>Gridpp is written in C++ but offers python bindings to the functions in the library. The tool is used at MET Norway to produce operational weather forecasts for Yr (<a href="https://www.yr.no">https://www.yr.no</a>).</p>
-<p>Gridpp is currently under active development and the current version is a prototype for testing. Feedback is welcome, either by using the issue tracker in Github, or by contacting Thomas Nipen (<a href="#" onclick="location.href='mai'+'lto:'+'tho'+'ma'+'sn@'+'me'+'t.n'+'o'; return false;">thoma<span style="display: none;">.nosp@m.</span>sn@m<span style="display: none;">.nosp@m.</span>et.no</a>).</p>
-<h2>Documentation</h2>
-<p>For information on how to use gridpp, check out the wiki at <a href="https://github.com/metno/gridpp/wiki">https://github.com/metno/gridpp/wiki</a>.</p>
-<h2>Features</h2>
-<ul>
-<li>Methods for <b>downscaling</b> a forecast from a coarse grid to a fine grid</li>
-<li>Methods for <b>calibrating</b> a downscaled grid, such as quantile mapping</li>
-<li>Computationally efficient <b>neighbourhood</b> methods to compute neighbourhood min, mean, max, and any quantile.</li>
-<li>Data assimilation using <b>optimal interpolation</b> (OI) to merge observations and gridded forecasts (deterministic or ensemble)</li>
-<li>Efficient data structures for nearest location lookup in a vector or grid of locations</li>
-<li>Command-line client with support for Netcdf files with flexibility in how variables and dimensions are configured</li>
-</ul>
-<h2>Example</h2>
-<p>The following computes a moving neighbourhood mean with a half-width of 7 gridpoints (i.e. 15x15 neighbourhood)</p>
-<div class="fragment"><div class="line">import gridpp</div><div class="line">import numpy as np</div><div class="line"></div><div class="line">field = np.random.rand(300, 200)</div><div class="line">halfwidth = 7</div><div class="line">gridpp.neighbourhood(field, halfwidth, gridpp.Mean)</div></div><!-- fragment --><h2>Required dependencies</h2>
-<ul>
-<li><a href="https://www.boost.org/">Boost</a> &gt;= 1.59</li>
-<li><a href="http://arma.sourceforge.net/">Armadillo</a> &gt;= 6.6</li>
-<li><a href="https://www.gnu.org/software/gsl/">GNU Scientific Library</a></li>
-<li><a href="https://www.unidata.ucar.edu/software/netcdf/">Netcdf</a></li>
-</ul>
-<p>On Ubuntu Bionic, these can be installed like this: </p><div class="fragment"><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install libboost-all-dev</div><div class="line">sudo apt-get install libgsl0-dev libblas-dev</div><div class="line">sudo apt-get install netcdf-bin libnetcdf-dev</div><div class="line">sudo apt-get install libarmadillo6 libarmadillo-dev</div></div><!-- fragment --><p>Note that Ubuntu Xenial only has Armadillo 6.5 in its apt repository. In that case you need to install <a href="http://arma.sourceforge.net/">Armadillo 6.6</a> or later manually.</p>
-<h2>Installing the python bindings from pip</h2>
-<p>The easiest is to install the latest release of the package using pip. Provided you have installed the dependencies listed above, you can install the most recent release of the python package as follows: </p><div class="fragment"><div class="line">pip3 install gridpp --user</div></div><!-- fragment --><p>To check that the installation worked, run the following in python3: </p><div class="fragment"><div class="line">import gridpp</div><div class="line">print(gridpp.version())</div></div><!-- fragment --><h2>Full gridpp installation from source</h2>
-<ol type="1">
-<li>Either download the source code from the <a href="https://github.com/metno/gridpp/releases">latest release</a>, unzip the file and navigate into the extracted folder; or clone the repo from github.</li>
-<li>Install extra requirements</li>
-</ol>
-<p>These are only required when installing from source </p><div class="fragment"><div class="line">sudo apt install swig cmake</div></div><!-- fragment --><ol type="1">
-<li>Set up cmake installation</li>
-</ol>
-<div class="fragment"><div class="line">mkdir build</div><div class="line">cd build</div><div class="line">cmake ..</div></div><!-- fragment --><ol type="1">
-<li>Install the C++ library</li>
-</ol>
-<div class="fragment"><div class="line">sudo make install</div></div><!-- fragment --><p> This will install the library in <code>/usr/local/lib/libgridpp.so</code> and the gridpp command-line client in <code>/usr/local/bin/gridpp</code>. To specify a custom installation path, use the following in step 3:</p>
-<div class="fragment"><div class="line">cmake .. -DCMAKE_INSTALL_PREFIX=&lt;custom path&gt;</div></div><!-- fragment --><ol type="1">
-<li>Install the python bindings</li>
-</ol>
-<div class="fragment"><div class="line">make install-python-user</div></div><!-- fragment --><p>This installs the python bindings in <code>~/local/lib/python3.6/site-packages/gridpp.py</code>. To install the python bindings system-wide, use <code>sudo make install-python</code> instead.</p>
-<ol type="1">
-<li>Install the R bindings</li>
-</ol>
-<div class="fragment"><div class="line">make build-r</div></div><!-- fragment --><p>Currently, the R package is not installed centrally, but instead is placed in <code>extras/SWIG/R/gridpp.R</code> in the build directory.</p>
-<h2>Copyright and license</h2>
-<p>Copyright © 2014-2020 Norwegian Meteorological Institute. Gridpp is licensed under the GNU LEsser General Public License (LGPL). See LICENSE file.</p>
-<h2>Contact</h2>
-<p>E-mail: Thomas Nipen (<a href="#" onclick="location.href='mai'+'lto:'+'tho'+'ma'+'sn@'+'me'+'t.n'+'o'; return false;">thoma<span style="display: none;">.nosp@m.</span>sn@m<span style="display: none;">.nosp@m.</span>et.no</a>) </p>
-</div></div><!-- contents -->
+<ul><li><a href="namespacegridpp.html"><span>API&#160;reference</span></a>
+</li></ul>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 12 2020 15:19:02 for Gridded post-processor by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 17 2020 20:47:40 for Gridpp 0.4.2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

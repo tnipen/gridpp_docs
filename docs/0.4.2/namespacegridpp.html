@@ -5,13 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gridded post-processor: gridpp Namespace Reference</title>
+<title>Gridpp 0.4.2: gridpp Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -21,10 +24,25 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Gridded post-processor
+   <div id="projectname">Gridpp 0.4.2
    </div>
-   <div id="projectbrief">A framework for post-processing gridded weather forecasts</div>
+   <div id="projectbrief">A post-processing library for gridded weather forecasts</div>
   </td>
+   <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -34,15 +52,6 @@
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-$(function() {
-  initMenu('',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-</script>
-<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,81 +69,16 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">gridpp Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespacegridpp_1_1util"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp_1_1util.html">util</a></td></tr>
-<tr class="memdesc:namespacegridpp_1_1util"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper functions. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1BarnesStructure.html">BarnesStructure</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple structure function based on distance, elevation, and land area fraction.  <a href="classgridpp_1_1BarnesStructure.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1BoxCox.html">BoxCox</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1CressmanStructure.html">CressmanStructure</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple structure function based on distance, elevation, and land area fraction.  <a href="classgridpp_1_1CressmanStructure.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1CrossValidation.html">CrossValidation</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Grid.html">Grid</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a 2D grid of locations and their metadata.  <a href="classgridpp_1_1Grid.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Identity.html">Identity</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html">KDTree</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class for <a class="el" href="classgridpp_1_1Grid.html" title="Represents a 2D grid of locations and their metadata. ">Grid</a> and <a class="el" href="classgridpp_1_1Points.html" title="Represents a vector of locations and their metadata. ">Points</a>.  <a href="classgridpp_1_1KDTree.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Log.html">Log</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Point.html">Point</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Points.html">Points</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a vector of locations and their metadata.  <a href="classgridpp_1_1Points.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance structure function.  <a href="classgridpp_1_1StructureFunction.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Transform.html">Transform</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a874f509d3b9c062842ed23de0e6e5f85"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85">Extrapolation</a> { <a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85a8429615ad66b49e7397791da369347ba">OneToOne</a> = 0, 
-<a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85a81d4ef1937646d68ba34199896f1b404">MeanSlope</a> = 10, 
-<a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85aa61cc4c201af76374caa1be1c6ca355f">NearestSlope</a> = 20, 
-<a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85a216a4f2d21e85ef0feaf74f79956df2c">Zero</a> = 30
- }<tr class="memdesc:a874f509d3b9c062842ed23de0e6e5f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Methods for extrapolating outside a curve.  <a href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a874f509d3b9c062842ed23de0e6e5f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a232191788fcb9015e7ee56848e8c6e4e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> { <br />
-&#160;&#160;<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4eab0313db808f3d77b344110ebdf0d4ce2">Mean</a> = 0, 
-<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea228e31a9c1b98ccf236cc24b83d0bfc6">Min</a> = 10, 
-<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea590200f71e8ac8ff4b473d6226f691eb">Median</a> = 20, 
-<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4eaf986b1d946f35c66b97980405be7f17f">Max</a> = 30, 
-<br />
-&#160;&#160;<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4eaf6d454354fe36302f3c2a6b6802a646d">Quantile</a> = 40, 
-<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea8fe5956039806ec9bd44951678633313">Std</a> = 50, 
-<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea97f0eec25840de562575feb9b6f81d3f">Variance</a> = 60, 
-<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea6c441851323ce18fdc0ceab44a5871b9">Sum</a> = 70, 
-<br />
-&#160;&#160;<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea130084e69e51c026d9f47853f34835f1">Unknown</a> = -1
-<br />
- }<tr class="memdesc:a232191788fcb9015e7ee56848e8c6e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statistical operations to reduce a vector to a scalar.  <a href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a232191788fcb9015e7ee56848e8c6e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:addca649f1ce4311d8f47c6d10e6a6cc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gridpp_8h.html#a470308ddab2b840c756f5ab26985a8ca">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#addca649f1ce4311d8f47c6d10e6a6cc2">bilinear</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;igrid, const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;ogrid, const <a class="el" href="gridpp_8h.html#a470308ddab2b840c756f5ab26985a8ca">vec2</a> ivalues)</td></tr>
@@ -242,6 +186,71 @@ Functions</h2></td></tr>
 <tr class="separator:a0c0c082c1e4aab9ec7dfcb954afdad7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab94d67b3b3e22753a1f4e75dab9c827f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="gridpp_8h.html#a470308ddab2b840c756f5ab26985a8ca">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ab94d67b3b3e22753a1f4e75dab9c827f">wind_speed</a> (const <a class="el" href="gridpp_8h.html#a470308ddab2b840c756f5ab26985a8ca">vec2</a> &amp;xwind, const <a class="el" href="gridpp_8h.html#a470308ddab2b840c756f5ab26985a8ca">vec2</a> &amp;ywind)</td></tr>
 <tr class="separator:ab94d67b3b3e22753a1f4e75dab9c827f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a874f509d3b9c062842ed23de0e6e5f85"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85">Extrapolation</a> { <a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85a8429615ad66b49e7397791da369347ba">OneToOne</a> = 0, 
+<a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85a81d4ef1937646d68ba34199896f1b404">MeanSlope</a> = 10, 
+<a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85aa61cc4c201af76374caa1be1c6ca355f">NearestSlope</a> = 20, 
+<a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85a216a4f2d21e85ef0feaf74f79956df2c">Zero</a> = 30
+ }<tr class="memdesc:a874f509d3b9c062842ed23de0e6e5f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Methods for extrapolating outside a curve.  <a href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a874f509d3b9c062842ed23de0e6e5f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a232191788fcb9015e7ee56848e8c6e4e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> { <br />
+&#160;&#160;<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4eab0313db808f3d77b344110ebdf0d4ce2">Mean</a> = 0, 
+<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea228e31a9c1b98ccf236cc24b83d0bfc6">Min</a> = 10, 
+<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea590200f71e8ac8ff4b473d6226f691eb">Median</a> = 20, 
+<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4eaf986b1d946f35c66b97980405be7f17f">Max</a> = 30, 
+<br />
+&#160;&#160;<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4eaf6d454354fe36302f3c2a6b6802a646d">Quantile</a> = 40, 
+<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea8fe5956039806ec9bd44951678633313">Std</a> = 50, 
+<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea97f0eec25840de562575feb9b6f81d3f">Variance</a> = 60, 
+<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea6c441851323ce18fdc0ceab44a5871b9">Sum</a> = 70, 
+<br />
+&#160;&#160;<a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea130084e69e51c026d9f47853f34835f1">Unknown</a> = -1
+<br />
+ }<tr class="memdesc:a232191788fcb9015e7ee56848e8c6e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statistical operations to reduce a vector to a scalar.  <a href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a232191788fcb9015e7ee56848e8c6e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1BarnesStructure.html">BarnesStructure</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple structure function based on distance, elevation, and land area fraction.  <a href="classgridpp_1_1BarnesStructure.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1BoxCox.html">BoxCox</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1CressmanStructure.html">CressmanStructure</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple structure function based on distance, elevation, and land area fraction.  <a href="classgridpp_1_1CressmanStructure.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1CrossValidation.html">CrossValidation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Grid.html">Grid</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a 2D grid of locations and their metadata.  <a href="classgridpp_1_1Grid.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Identity.html">Identity</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html">KDTree</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class for <a class="el" href="classgridpp_1_1Grid.html" title="Represents a 2D grid of locations and their metadata. ">Grid</a> and <a class="el" href="classgridpp_1_1Points.html" title="Represents a vector of locations and their metadata. ">Points</a>.  <a href="classgridpp_1_1KDTree.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Log.html">Log</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Point.html">Point</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Points.html">Points</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a vector of locations and their metadata.  <a href="classgridpp_1_1Points.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Covariance structure function.  <a href="classgridpp_1_1StructureFunction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Transform.html">Transform</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacegridpp_1_1util"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp_1_1util.html">util</a></td></tr>
+<tr class="memdesc:namespacegridpp_1_1util"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper functions. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -2011,7 +2020,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 12 2020 15:19:02 for Gridded post-processor by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 17 2020 20:47:40 for Gridpp 0.4.2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

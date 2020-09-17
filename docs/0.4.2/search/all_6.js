@@ -21,6 +21,5 @@ var searchData=
   ['gridpp_2ecpp',['gridpp.cpp',['../gridpp_8cpp.html',1,'']]],
   ['gridpp_2eh',['gridpp.h',['../gridpp_8h.html',1,'']]],
   ['gridpp_5fversion',['GRIDPP_VERSION',['../gridpp_8h.html#ad24e4fa73b48b5f95d6b366284978e3c',1,'gridpp.h']]],
-  ['gridded_20post_2dprocessor',['Gridded post-processor',['../index.html',1,'']]],
   ['util',['util',['../namespacegridpp_1_1util.html',1,'gridpp']]]
 ];
