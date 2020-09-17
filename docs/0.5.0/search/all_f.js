@@ -2,7 +2,7 @@ var searchData=
 [
   ['pc',['Pc',['../namespacegridpp.html#a58bc0350ffe93f9116cff6e2ee6a7d01a088c224e4cb6b94f418967490637aecc',1,'gridpp']]],
   ['pi',['pi',['../namespacegridpp.html#a3ca41a1266b028c5b48dc2c32b3b3b09',1,'gridpp']]],
-  ['point',['Point',['../classgridpp_1_1Point.html',1,'gridpp::Point'],['../classgridpp_1_1KDTree.html#a8323fb347f2835b0761f6e26278d87fb',1,'gridpp::KDTree::point()'],['../classgridpp_1_1Point.html#a77509a6b22f021d15083a861e0a95811',1,'gridpp::Point::Point()']]],
+  ['point',['Point',['../classgridpp_1_1Point.html',1,'gridpp::Point'],['../classgridpp_1_1KDTree.html#a8323fb347f2835b0761f6e26278d87fb',1,'gridpp::KDTree::point()'],['../classgridpp_1_1Point.html#a3552f08a9e3238a9fbdfbe3b9c49ce5a',1,'gridpp::Point::Point()']]],
   ['point_2ecpp',['point.cpp',['../point_8cpp.html',1,'']]],
   ['points',['Points',['../classgridpp_1_1Points.html',1,'gridpp::Points'],['../classgridpp_1_1Points.html#acce86e5c6cef176aa1096b65963e3630',1,'gridpp::Points::Points()'],['../classgridpp_1_1Points.html#a8e07d4406288bd97745b2ba9bc87b80a',1,'gridpp::Points::Points(vec lats, vec lons, vec elevs=vec(), vec lafs=vec())'],['../classgridpp_1_1Points.html#a15e2fe7fd626a31abb18d3ac10a1bbba',1,'gridpp::Points::Points(const Points &amp;other)']]],
   ['points_2ecpp',['points.cpp',['../points_8cpp.html',1,'']]],
