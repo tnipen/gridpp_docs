@@ -94,7 +94,7 @@ Inheritance diagram for gridpp::BarnesStructure:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a518a390a13400b532f3667937a4a4aa9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1BarnesStructure.html#a518a390a13400b532f3667937a4a4aa9">BarnesStructure</a> (float h, float v=0, float w=0, float hmax=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
-<tr class="memdesc:a518a390a13400b532f3667937a4a4aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Barnes.  <a href="#a518a390a13400b532f3667937a4a4aa9">More...</a><br /></td></tr>
+<tr class="memdesc:a518a390a13400b532f3667937a4a4aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exponential structure function.  <a href="#a518a390a13400b532f3667937a4a4aa9">More...</a><br /></td></tr>
 <tr class="separator:a518a390a13400b532f3667937a4a4aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af31f06ef7ef647d7f2f18cbf1e5734"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1BarnesStructure.html#a1af31f06ef7ef647d7f2f18cbf1e5734">clone</a> () const</td></tr>
 <tr class="separator:a1af31f06ef7ef647d7f2f18cbf1e5734"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,7 +160,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Barnes. </p>
+<p>Exponential structure function. </p>
+<p>Barnes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">h</td><td>Horizontal decorrelation length [m] </td></tr>
+    <tr><td class="paramname">v</td><td>Vertical decorrelation length [m]. If 0, disable decorrelation. </td></tr>
+    <tr><td class="paramname">w</td><td>Land/sea decorrelation length [1]. If 0, disable decorrelation. </td></tr>
+    <tr><td class="paramname">hmax</td><td>Truncate horizontal correlation at this length [m]. If undefined, 3.64 * h. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -239,7 +249,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 17 2020 21:48:29 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 24 2020 16:39:36 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

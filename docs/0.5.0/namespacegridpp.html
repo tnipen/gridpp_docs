@@ -92,6 +92,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a13a02343378719c38e15d63994a59f81"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="namespacegridpp.html#a3373bbd546635b011e492214cd154c67">ivec</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a></td></tr>
 <tr class="memdesc:a13a02343378719c38e15d63994a59f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D vector of ints  <a href="#a13a02343378719c38e15d63994a59f81">More...</a><br /></td></tr>
 <tr class="separator:a13a02343378719c38e15d63994a59f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af890ab76b6c60c11cc2b67b51697894e"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af890ab76b6c60c11cc2b67b51697894e">ivec3</a></td></tr>
+<tr class="memdesc:af890ab76b6c60c11cc2b67b51697894e"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D vector of ints  <a href="#af890ab76b6c60c11cc2b67b51697894e">More...</a><br /></td></tr>
+<tr class="separator:af890ab76b6c60c11cc2b67b51697894e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bdda8fa26486e1ed11454128b2c2ccf"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a></td></tr>
 <tr class="memdesc:a8bdda8fa26486e1ed11454128b2c2ccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">1D vector of floats  <a href="#a8bdda8fa26486e1ed11454128b2c2ccf">More...</a><br /></td></tr>
 <tr class="separator:a8bdda8fa26486e1ed11454128b2c2ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,10 +195,10 @@ Functions</h2></td></tr>
 <tr class="separator:a9e60e28bef15870f4d9c5498a61dd985"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af45113de2428d6a933923cf6639bb250"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af45113de2428d6a933923cf6639bb250">advection_implicit</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;y_dist, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;x_dist, float dt, <a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> &amp;y_coord, <a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> &amp;x_coord)</td></tr>
 <tr class="separator:af45113de2428d6a933923cf6639bb250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbb9e78650939adf8b8d0de1671081ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#afbb9e78650939adf8b8d0de1671081ad">correction</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;rgrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;rvalues, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;npoints, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;nvalues, float mean_radius, float outer_radius, float inner_radius, int min_num, int max_num, <a class="el" href="namespacegridpp.html#aca92081b4647f72000e19e814b99ad10">CorrectionType</a> type, <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;<a class="el" href="namespacegridpp.html#adade59b4d6b12815eaa970ced087a060">count</a>)</td></tr>
-<tr class="separator:afbb9e78650939adf8b8d0de1671081ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31a7b3f705162d41a5d73be976d268e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a31a7b3f705162d41a5d73be976d268e0">correction</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;rgrid, const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;rvalues, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;npoints, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;nvalues, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;apply_values, float mean_radius, float outer_radius, float inner_radius, int min_num, int max_num, <a class="el" href="namespacegridpp.html#aca92081b4647f72000e19e814b99ad10">CorrectionType</a> type, <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;<a class="el" href="namespacegridpp.html#adade59b4d6b12815eaa970ced087a060">count</a>)</td></tr>
-<tr class="separator:a31a7b3f705162d41a5d73be976d268e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679a921351e161198561860b1d9a07f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a679a921351e161198561860b1d9a07f7">correction</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;rgrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;rvalues, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;npoints, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;nvalues, float mean_radius, float outer_radius, float inner_radius, int min_num, int max_num, <a class="el" href="namespacegridpp.html#aca92081b4647f72000e19e814b99ad10">CorrectionType</a> type, <a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> &amp;<a class="el" href="namespacegridpp.html#adade59b4d6b12815eaa970ced087a060">count</a>)</td></tr>
+<tr class="separator:a679a921351e161198561860b1d9a07f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b8ccbc72beaf9292ec34571d8a23de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a84b8ccbc72beaf9292ec34571d8a23de">correction</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;rgrid, const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;rvalues, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;npoints, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;nvalues, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;apply_values, float mean_radius, float outer_radius, float inner_radius, int min_num, int max_num, <a class="el" href="namespacegridpp.html#aca92081b4647f72000e19e814b99ad10">CorrectionType</a> type, <a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> &amp;<a class="el" href="namespacegridpp.html#adade59b4d6b12815eaa970ced087a060">count</a>)</td></tr>
+<tr class="separator:a84b8ccbc72beaf9292ec34571d8a23de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Downscaling methods</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><hr/>
 <p>Functions that interpolate data from one grid to another </p>
@@ -258,6 +261,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac58b36dc321b2efebfbd9f7e3a4a75a8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ac58b36dc321b2efebfbd9f7e3a4a75a8">pressure</a> (float ielev, float oelev, float ipressure, float itemperature=288.15)</td></tr>
 <tr class="memdesc:ac58b36dc321b2efebfbd9f7e3a4a75a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate pressure at a new elevation.  <a href="#ac58b36dc321b2efebfbd9f7e3a4a75a8">More...</a><br /></td></tr>
 <tr class="separator:ac58b36dc321b2efebfbd9f7e3a4a75a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1fb8c7012f7bc43f38d3e083da17c57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ae1fb8c7012f7bc43f38d3e083da17c57">pressure</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;ielev, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;oelev, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;ipressure, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;itemperature)</td></tr>
+<tr class="memdesc:ae1fb8c7012f7bc43f38d3e083da17c57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate Vector version of pressure calculation.  <a href="#ae1fb8c7012f7bc43f38d3e083da17c57">More...</a><br /></td></tr>
+<tr class="separator:ae1fb8c7012f7bc43f38d3e083da17c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c466b6e8174f21fa41ab6fc628cac21"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a6c466b6e8174f21fa41ab6fc628cac21">qnh</a> (float <a class="el" href="namespacegridpp.html#ac58b36dc321b2efebfbd9f7e3a4a75a8">pressure</a>, float altitude)</td></tr>
 <tr class="memdesc:a6c466b6e8174f21fa41ab6fc628cac21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagnose QNH from pressure and altitude.  <a href="#a6c466b6e8174f21fa41ab6fc628cac21">More...</a><br /></td></tr>
 <tr class="separator:a6c466b6e8174f21fa41ab6fc628cac21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,9 +273,15 @@ Functions</h2></td></tr>
 <tr class="memitem:abb68e7196d84cc859cf7e50506cead10"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#abb68e7196d84cc859cf7e50506cead10">relative_humidity</a> (float temperature, float <a class="el" href="namespacegridpp.html#af69cdc6795777bee7dee1ac4adf96c8c">dewpoint</a>)</td></tr>
 <tr class="memdesc:abb68e7196d84cc859cf7e50506cead10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate relative humidity from temperature and dewpoint temperature.  <a href="#abb68e7196d84cc859cf7e50506cead10">More...</a><br /></td></tr>
 <tr class="separator:abb68e7196d84cc859cf7e50506cead10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9863392dc03209d5bc1ef228e86ef08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ac9863392dc03209d5bc1ef228e86ef08">relative_humidity</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;temperature, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;<a class="el" href="namespacegridpp.html#af69cdc6795777bee7dee1ac4adf96c8c">dewpoint</a>)</td></tr>
+<tr class="memdesc:ac9863392dc03209d5bc1ef228e86ef08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector version of relative humidity calculation.  <a href="#ac9863392dc03209d5bc1ef228e86ef08">More...</a><br /></td></tr>
+<tr class="separator:ac9863392dc03209d5bc1ef228e86ef08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7308608c2f846637f7e2239017f3b5a2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a7308608c2f846637f7e2239017f3b5a2">wetbulb</a> (float temperature, float <a class="el" href="namespacegridpp.html#ac58b36dc321b2efebfbd9f7e3a4a75a8">pressure</a>, float <a class="el" href="namespacegridpp.html#abb68e7196d84cc859cf7e50506cead10">relative_humidity</a>)</td></tr>
 <tr class="memdesc:a7308608c2f846637f7e2239017f3b5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate wetbulb temperature from temperature, pressure, and relative humidity.  <a href="#a7308608c2f846637f7e2239017f3b5a2">More...</a><br /></td></tr>
 <tr class="separator:a7308608c2f846637f7e2239017f3b5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18c5138cc3c80da3bd80e7ab9b294d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af18c5138cc3c80da3bd80e7ab9b294d7">wetbulb</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;temperature, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;<a class="el" href="namespacegridpp.html#ac58b36dc321b2efebfbd9f7e3a4a75a8">pressure</a>, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;<a class="el" href="namespacegridpp.html#abb68e7196d84cc859cf7e50506cead10">relative_humidity</a>)</td></tr>
+<tr class="memdesc:af18c5138cc3c80da3bd80e7ab9b294d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector version of wetbulb calculation.  <a href="#af18c5138cc3c80da3bd80e7ab9b294d7">More...</a><br /></td></tr>
+<tr class="separator:af18c5138cc3c80da3bd80e7ab9b294d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed38e77339682e1cec7f5a697db87afb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aed38e77339682e1cec7f5a697db87afb">wind_speed</a> (float xwind, float ywind)</td></tr>
 <tr class="memdesc:aed38e77339682e1cec7f5a697db87afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diagnose wind speed from its components.  <a href="#aed38e77339682e1cec7f5a697db87afb">More...</a><br /></td></tr>
 <tr class="separator:aed38e77339682e1cec7f5a697db87afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,11 +342,15 @@ Functions</h2></td></tr>
 <tr class="separator:a18c9cb0bf34070767072a54d57655a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34e8bd4909dbcd8705e29fd5450b62b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a34e8bd4909dbcd8705e29fd5450b62b7">not_implemented_error</a> ()</td></tr>
 <tr class="separator:a34e8bd4909dbcd8705e29fd5450b62b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836d012b8cd84738991532cadc2338bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a836d012b8cd84738991532cadc2338bc">init_ivec2</a> (int Y, int X, int value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
+<tr class="memdesc:a836d012b8cd84738991532cadc2338bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, with a given value.  <a href="#a836d012b8cd84738991532cadc2338bc">More...</a><br /></td></tr>
+<tr class="separator:a836d012b8cd84738991532cadc2338bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9d50de69e08ca72dbd4d8ad55cf6ac8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ab9d50de69e08ca72dbd4d8ad55cf6ac8">init_vec2</a> (int Y, int X, float value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
-<tr class="memdesc:ab9d50de69e08ca72dbd4d8ad55cf6ac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, with a given value.  <a href="#ab9d50de69e08ca72dbd4d8ad55cf6ac8">More...</a><br /></td></tr>
 <tr class="separator:ab9d50de69e08ca72dbd4d8ad55cf6ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ba1f360e7dcec399bcdb8933bee3bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#af890ab76b6c60c11cc2b67b51697894e">ivec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af0ba1f360e7dcec399bcdb8933bee3bd">init_ivec3</a> (int Y, int X, int E, int value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
+<tr class="memdesc:af0ba1f360e7dcec399bcdb8933bee3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, E, with a given value.  <a href="#af0ba1f360e7dcec399bcdb8933bee3bd">More...</a><br /></td></tr>
+<tr class="separator:af0ba1f360e7dcec399bcdb8933bee3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55516a1cc2281b4d56c56317a89f67ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a55516a1cc2281b4d56c56317a89f67ba">init_vec3</a> (int Y, int X, int E, float value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
-<tr class="memdesc:a55516a1cc2281b4d56c56317a89f67ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, E, with a given value.  <a href="#a55516a1cc2281b4d56c56317a89f67ba">More...</a><br /></td></tr>
 <tr class="separator:a55516a1cc2281b4d56c56317a89f67ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a500b9e6d54efeb40ada79a33827bcf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a500b9e6d54efeb40ada79a33827bcf30">calc_even_quantiles</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;values, int num)</td></tr>
 <tr class="memdesc:a500b9e6d54efeb40ada79a33827bcf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reasonably spaced quantiles from a vector of values, ignoring duplicate values but including the first number after duplicated values.  <a href="#a500b9e6d54efeb40ada79a33827bcf30">More...</a><br /></td></tr>
@@ -536,6 +552,22 @@ Classes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>2D vector of ints </p>
+
+</div>
+</div>
+<a id="af890ab76b6c60c11cc2b67b51697894e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af890ab76b6c60c11cc2b67b51697894e">&#9670;&nbsp;</a></span>ivec3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a>&gt; <a class="el" href="namespacegridpp.html#af890ab76b6c60c11cc2b67b51697894e">gridpp::ivec3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>3D vector of ints </p>
 
 </div>
 </div>
@@ -1373,8 +1405,8 @@ Classes</h2></td></tr>
 
 </div>
 </div>
-<a id="afbb9e78650939adf8b8d0de1671081ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbb9e78650939adf8b8d0de1671081ad">&#9670;&nbsp;</a></span>correction() <span class="overload">[1/2]</span></h2>
+<a id="a679a921351e161198561860b1d9a07f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679a921351e161198561860b1d9a07f7">&#9670;&nbsp;</a></span>correction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1442,7 +1474,7 @@ Classes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> &amp;&#160;</td>
           <td class="paramname"><em>count</em>&#160;</td>
         </tr>
         <tr>
@@ -1455,8 +1487,8 @@ Classes</h2></td></tr>
 
 </div>
 </div>
-<a id="a31a7b3f705162d41a5d73be976d268e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31a7b3f705162d41a5d73be976d268e0">&#9670;&nbsp;</a></span>correction() <span class="overload">[2/2]</span></h2>
+<a id="a84b8ccbc72beaf9292ec34571d8a23de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b8ccbc72beaf9292ec34571d8a23de">&#9670;&nbsp;</a></span>correction() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1530,7 +1562,7 @@ Classes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> &amp;&#160;</td>
           <td class="paramname"><em>count</em>&#160;</td>
         </tr>
         <tr>
@@ -2219,6 +2251,84 @@ Classes</h2></td></tr>
 
 </div>
 </div>
+<a id="a836d012b8cd84738991532cadc2338bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836d012b8cd84738991532cadc2338bc">&#9670;&nbsp;</a></span>init_ivec2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a> gridpp::init_ivec2 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em> = <code><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize a vector of size Y, X, with a given value. </p>
+
+</div>
+</div>
+<a id="af0ba1f360e7dcec399bcdb8933bee3bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ba1f360e7dcec399bcdb8933bee3bd">&#9670;&nbsp;</a></span>init_ivec3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#af890ab76b6c60c11cc2b67b51697894e">ivec3</a> gridpp::init_ivec3 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>E</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em> = <code><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize a vector of size Y, X, E, with a given value. </p>
+
+</div>
+</div>
 <a id="ab9d50de69e08ca72dbd4d8ad55cf6ac8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9d50de69e08ca72dbd4d8ad55cf6ac8">&#9670;&nbsp;</a></span>init_vec2()</h2>
 
@@ -2250,8 +2360,6 @@ Classes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Initialize a vector of size Y, X, with a given value. </p>
 
 </div>
 </div>
@@ -2292,8 +2400,6 @@ Classes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Initialize a vector of size Y, X, E, with a given value. </p>
 
 </div>
 </div>
@@ -3452,7 +3558,7 @@ Classes</h2></td></tr>
 </div>
 </div>
 <a id="ac58b36dc321b2efebfbd9f7e3a4a75a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac58b36dc321b2efebfbd9f7e3a4a75a8">&#9670;&nbsp;</a></span>pressure()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac58b36dc321b2efebfbd9f7e3a4a75a8">&#9670;&nbsp;</a></span>pressure() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3500,6 +3606,58 @@ Classes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pressure at new point </dd></dl>
+
+</div>
+</div>
+<a id="ae1fb8c7012f7bc43f38d3e083da17c57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1fb8c7012f7bc43f38d3e083da17c57">&#9670;&nbsp;</a></span>pressure() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> gridpp::pressure </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>ielev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>oelev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>ipressure</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>itemperature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate Vector version of pressure calculation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ielev</td><td>Elevations at start point </td></tr>
+    <tr><td class="paramname">oelev</td><td>Elevations at new point </td></tr>
+    <tr><td class="paramname">ipressure</td><td>Pressures at start point </td></tr>
+    <tr><td class="paramname">itemperature</td><td>Temperatures at start point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pressures at new points </dd></dl>
 
 </div>
 </div>
@@ -3625,7 +3783,7 @@ Classes</h2></td></tr>
 </div>
 </div>
 <a id="abb68e7196d84cc859cf7e50506cead10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb68e7196d84cc859cf7e50506cead10">&#9670;&nbsp;</a></span>relative_humidity()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abb68e7196d84cc859cf7e50506cead10">&#9670;&nbsp;</a></span>relative_humidity() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3659,6 +3817,44 @@ Classes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Relative humidity [1] </dd></dl>
+
+</div>
+</div>
+<a id="ac9863392dc03209d5bc1ef228e86ef08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9863392dc03209d5bc1ef228e86ef08">&#9670;&nbsp;</a></span>relative_humidity() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> gridpp::relative_humidity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>temperature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>dewpoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector version of relative humidity calculation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temperature</td><td>Temperatures [K] </td></tr>
+    <tr><td class="paramname">dewpoint</td><td>Dewpoint temperatures [K] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Relative humidities [1] </dd></dl>
 
 </div>
 </div>
@@ -4064,7 +4260,7 @@ Classes</h2></td></tr>
 </div>
 </div>
 <a id="a7308608c2f846637f7e2239017f3b5a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7308608c2f846637f7e2239017f3b5a2">&#9670;&nbsp;</a></span>wetbulb()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7308608c2f846637f7e2239017f3b5a2">&#9670;&nbsp;</a></span>wetbulb() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4105,6 +4301,51 @@ Classes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Wetbulb temperature [K] </dd></dl>
+
+</div>
+</div>
+<a id="af18c5138cc3c80da3bd80e7ab9b294d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af18c5138cc3c80da3bd80e7ab9b294d7">&#9670;&nbsp;</a></span>wetbulb() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> gridpp::wetbulb </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>temperature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>pressure</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>relative_humidity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vector version of wetbulb calculation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temperature</td><td>Temperatures [K] </td></tr>
+    <tr><td class="paramname">pressure</td><td>Air pressures [pa] </td></tr>
+    <tr><td class="paramname">Relative</td><td>humidities [1] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Wetbulb temperatures [K] </dd></dl>
 
 </div>
 </div>
@@ -4302,7 +4543,7 @@ Classes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 17 2020 21:48:29 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 24 2020 16:39:36 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
