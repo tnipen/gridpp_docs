@@ -87,9 +87,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a244bfcb7466df57d1556039957d57946"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a244bfcb7466df57d1556039957d57946">convert_coordinates</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;lats, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;lons, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;x_coords, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;y_coords, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;z_coords) const</td></tr>
+<tr class="memdesc:a244bfcb7466df57d1556039957d57946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert lat/lons to 3D cartesian coordinates with the centre of the earth as the origin.  <a href="#a244bfcb7466df57d1556039957d57946">More...</a><br /></td></tr>
+<tr class="separator:a244bfcb7466df57d1556039957d57946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a847b9eb95577c01ebf0153af0ac449"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a0a847b9eb95577c01ebf0153af0ac449">convert_coordinates</a> (float lat, float lon, float &amp;x_coord, float &amp;y_coord, float &amp;z_coord) const</td></tr>
+<tr class="memdesc:a0a847b9eb95577c01ebf0153af0ac449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as above, but convert a single lat/lon to 3D cartesian coordinates.  <a href="#a0a847b9eb95577c01ebf0153af0ac449">More...</a><br /></td></tr>
+<tr class="separator:a0a847b9eb95577c01ebf0153af0ac449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c18ab50c627521c46d80e3ba8acd371"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a3373bbd546635b011e492214cd154c67">ivec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a4c18ab50c627521c46d80e3ba8acd371">get_closest_neighbours</a> (float lat, float lon, int num) const</td></tr>
 <tr class="memdesc:a4c18ab50c627521c46d80e3ba8acd371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a set of nearest points.  <a href="#a4c18ab50c627521c46d80e3ba8acd371">More...</a><br /></td></tr>
 <tr class="separator:a4c18ab50c627521c46d80e3ba8acd371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8528a12939db1e798aea689e70552500"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a8528a12939db1e798aea689e70552500">get_coordinate_type</a> () const</td></tr>
+<tr class="separator:a8528a12939db1e798aea689e70552500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa37f8b4cb01f124a8c2aa9083e51b85c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aa37f8b4cb01f124a8c2aa9083e51b85c">get_lats</a> () const</td></tr>
 <tr class="separator:aa37f8b4cb01f124a8c2aa9083e51b85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac81fb7b4495d36b409e90fe5e9a3717"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aac81fb7b4495d36b409e90fe5e9a3717">get_lons</a> () const</td></tr>
@@ -106,8 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a08118c604828ea452a73d1c3c5b03e75"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a08118c604828ea452a73d1c3c5b03e75">get_num_neighbours</a> (float lat, float lon, float radius) const</td></tr>
 <tr class="memdesc:a08118c604828ea452a73d1c3c5b03e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the number of points within a radius.  <a href="#a08118c604828ea452a73d1c3c5b03e75">More...</a><br /></td></tr>
 <tr class="separator:a08118c604828ea452a73d1c3c5b03e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38888809ade3eb006450bdea248cc05c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a38888809ade3eb006450bdea248cc05c">KDTree</a> (<a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> lats, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> lons)</td></tr>
-<tr class="separator:a38888809ade3eb006450bdea248cc05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a285460d03377b1660f4f85892b3069"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a9a285460d03377b1660f4f85892b3069">KDTree</a> (<a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> lats, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> lons, <a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a> type=<a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446da90a71b9aafb3c92c67cb261b5aae0b8e">LatLon</a>)</td></tr>
+<tr class="separator:a9a285460d03377b1660f4f85892b3069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1d0f7417b96cf81eca1283506c39813"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aa1d0f7417b96cf81eca1283506c39813">KDTree</a> (const <a class="el" href="classgridpp_1_1KDTree.html">KDTree</a> &amp;other)</td></tr>
 <tr class="separator:aa1d0f7417b96cf81eca1283506c39813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b0c4bfccdba7ab22fdab1964cb6f8a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a0b0c4bfccdba7ab22fdab1964cb6f8a8">KDTree</a> ()</td></tr>
@@ -123,14 +131,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ada179cf839f826c770441deae73061bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac82695901809db4745611e37cbe542d"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aac82695901809db4745611e37cbe542d">calc_distance</a> (float x0, float y0, float z0, float x1, float y1, float z1)</td></tr>
 <tr class="separator:aac82695901809db4745611e37cbe542d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f002c05e9fb0701f780f9a41ac06b44"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a6f002c05e9fb0701f780f9a41ac06b44">calc_distance_fast</a> (float lat1, float lon1, float lat2, float lon2)</td></tr>
-<tr class="separator:a6f002c05e9fb0701f780f9a41ac06b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a0feafcd59c6e33cce32b71c976f728"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a2a0feafcd59c6e33cce32b71c976f728">convert_coordinates</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;lats, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;lons, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;x_coords, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;y_coords, <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;z_coords)</td></tr>
-<tr class="memdesc:a2a0feafcd59c6e33cce32b71c976f728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert lat/lons to 3D cartesian coordinates with the centre of the earth as the origin.  <a href="#a2a0feafcd59c6e33cce32b71c976f728">More...</a><br /></td></tr>
-<tr class="separator:a2a0feafcd59c6e33cce32b71c976f728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53e16db76c5d08087dac82f84c7e92bb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#a53e16db76c5d08087dac82f84c7e92bb">convert_coordinates</a> (float lat, float lon, float &amp;x_coord, float &amp;y_coord, float &amp;z_coord)</td></tr>
-<tr class="memdesc:a53e16db76c5d08087dac82f84c7e92bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as above, but convert a single lat/lon to 3D cartesian coordinates.  <a href="#a53e16db76c5d08087dac82f84c7e92bb">More...</a><br /></td></tr>
-<tr class="separator:a53e16db76c5d08087dac82f84c7e92bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53791bcdbd1274fb96c2cf3c24e0c2c"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aa53791bcdbd1274fb96c2cf3c24e0c2c">calc_distance_fast</a> (float lat1, float lon1, float lat2, float lon2, <a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a> type=<a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446da90a71b9aafb3c92c67cb261b5aae0b8e">LatLon</a>)</td></tr>
+<tr class="separator:aa53791bcdbd1274fb96c2cf3c24e0c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad14a0729f3da3b1e51bdb556dc47352"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aad14a0729f3da3b1e51bdb556dc47352">calc_distance_fast</a> (const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;p1, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;p2)</td></tr>
+<tr class="separator:aad14a0729f3da3b1e51bdb556dc47352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5cd65c86db270ed5efd51b987b11ddb"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aa5cd65c86db270ed5efd51b987b11ddb">deg2rad</a> (float deg)</td></tr>
 <tr class="separator:aa5cd65c86db270ed5efd51b987b11ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af64be5cda6f54010771dd846a8ef9d94"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#af64be5cda6f54010771dd846a8ef9d94">rad2deg</a> (float deg)</td></tr>
@@ -153,6 +157,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aed3cdf7d116c0277501a5db01bdac73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec97a4064df5916098b9b80fb88359c4"><td class="memItemLeft" align="right" valign="top">boost::geometry::index::rtree&lt; <a class="el" href="classgridpp_1_1KDTree.html#a1c54601ab00dad547e7bf838c43181db">value</a>, boost::geometry::index::quadratic&lt; 16 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#aec97a4064df5916098b9b80fb88359c4">mTree</a></td></tr>
 <tr class="separator:aec97a4064df5916098b9b80fb88359c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5b59b44a4c088c93f933e4212bacf09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1KDTree.html#ad5b59b44a4c088c93f933e4212bacf09">mType</a></td></tr>
+<tr class="separator:ad5b59b44a4c088c93f933e4212bacf09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helper class for <a class="el" href="classgridpp_1_1Grid.html" title="Represents a 2D grid of locations and their metadata. ">Grid</a> and <a class="el" href="classgridpp_1_1Points.html" title="Represents a vector of locations and their metadata. ">Points</a>. </p>
@@ -224,8 +230,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a38888809ade3eb006450bdea248cc05c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38888809ade3eb006450bdea248cc05c">&#9670;&nbsp;</a></span>KDTree() <span class="overload">[1/3]</span></h2>
+<a id="a9a285460d03377b1660f4f85892b3069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a285460d03377b1660f4f85892b3069">&#9670;&nbsp;</a></span>KDTree() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +246,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td>
-          <td class="paramname"><em>lons</em>&#160;</td>
+          <td class="paramname"><em>lons</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a>&#160;</td>
+          <td class="paramname"><em>type</em> = <code><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446da90a71b9aafb3c92c67cb261b5aae0b8e">LatLon</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -404,8 +416,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6f002c05e9fb0701f780f9a41ac06b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f002c05e9fb0701f780f9a41ac06b44">&#9670;&nbsp;</a></span>calc_distance_fast()</h2>
+<a id="aa53791bcdbd1274fb96c2cf3c24e0c2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53791bcdbd1274fb96c2cf3c24e0c2c">&#9670;&nbsp;</a></span>calc_distance_fast() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -435,7 +447,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>lon2</em>&#160;</td>
+          <td class="paramname"><em>lon2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a>&#160;</td>
+          <td class="paramname"><em>type</em> = <code><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446da90a71b9aafb3c92c67cb261b5aae0b8e">LatLon</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -452,14 +470,47 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2a0feafcd59c6e33cce32b71c976f728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a0feafcd59c6e33cce32b71c976f728">&#9670;&nbsp;</a></span>convert_coordinates() <span class="overload">[1/2]</span></h2>
+<a id="aad14a0729f3da3b1e51bdb556dc47352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad14a0729f3da3b1e51bdb556dc47352">&#9670;&nbsp;</a></span>calc_distance_fast() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float gridpp::KDTree::calc_distance_fast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>p2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a244bfcb7466df57d1556039957d57946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a244bfcb7466df57d1556039957d57946">&#9670;&nbsp;</a></span>convert_coordinates() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool gridpp::KDTree::convert_coordinates </td>
@@ -494,14 +545,9 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Convert lat/lons to 3D cartesian coordinates with the centre of the earth as the origin. </p>
@@ -518,14 +564,11 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a53e16db76c5d08087dac82f84c7e92bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53e16db76c5d08087dac82f84c7e92bb">&#9670;&nbsp;</a></span>convert_coordinates() <span class="overload">[2/2]</span></h2>
+<a id="a0a847b9eb95577c01ebf0153af0ac449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a847b9eb95577c01ebf0153af0ac449">&#9670;&nbsp;</a></span>convert_coordinates() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool gridpp::KDTree::convert_coordinates </td>
@@ -560,14 +603,9 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Same as above, but convert a single lat/lon to 3D cartesian coordinates. </p>
@@ -651,6 +689,23 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a8528a12939db1e798aea689e70552500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8528a12939db1e798aea689e70552500">&#9670;&nbsp;</a></span>get_coordinate_type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a> gridpp::KDTree::get_coordinate_type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -992,6 +1047,28 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad5b59b44a4c088c93f933e4212bacf09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b59b44a4c088c93f933e4212bacf09">&#9670;&nbsp;</a></span>mType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">CoordinateType</a> gridpp::KDTree::mType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/thomasn/repos/gridpplib/include/<a class="el" href="gridpp_8h_source.html">gridpp.h</a></li>
 <li>/home/thomasn/repos/gridpplib/src/api/<a class="el" href="kdtree_8cpp.html">kdtree.cpp</a></li>
@@ -999,7 +1076,7 @@ Protected Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 24 2020 16:39:36 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 26 2020 21:10:49 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

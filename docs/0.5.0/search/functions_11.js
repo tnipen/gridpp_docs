@@ -9,5 +9,6 @@ var searchData=
   ['test_5fvec3_5finput',['test_vec3_input',['../namespacegridpp.html#a3ea24e32cb80c947649a278e1ce8602d',1,'gridpp']]],
   ['test_5fvec3_5foutput',['test_vec3_output',['../namespacegridpp.html#a210e1d7465e0fa0795b1d13cf8328c3c',1,'gridpp']]],
   ['test_5fvec_5finput',['test_vec_input',['../namespacegridpp.html#a8efa7484b7eff862a01d2e74fea4218b',1,'gridpp']]],
-  ['test_5fvec_5foutput',['test_vec_output',['../namespacegridpp.html#a5b908d68759978acc57c0445254e8221',1,'gridpp']]]
+  ['test_5fvec_5foutput',['test_vec_output',['../namespacegridpp.html#a5b908d68759978acc57c0445254e8221',1,'gridpp']]],
+  ['to_5fpoints',['to_points',['../classgridpp_1_1Grid.html#ac02eea644971597bbed0df650118598a',1,'gridpp::Grid']]]
 ];
