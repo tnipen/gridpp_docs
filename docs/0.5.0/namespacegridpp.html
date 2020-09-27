@@ -111,6 +111,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac16a068f037d16ebf3d7755d15a75240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation for a deterministic vector of points.  <a href="#ac16a068f037d16ebf3d7755d15a75240">More...</a><br /></td></tr>
 <tr class="separator:ac16a068f037d16ebf3d7755d15a75240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3be1d5748d4f0957cbdbb7534a11bb5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a3be1d5748d4f0957cbdbb7534a11bb5f">optimal_interpolation_transform</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;background, float bsigma, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigma, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points, const <a class="el" href="classgridpp_1_1Transform.html">Transform</a> &amp;transform)</td></tr>
+<tr class="memdesc:a3be1d5748d4f0957cbdbb7534a11bb5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is its own function because the variance parameterization is different than in the non-transformed case.  <a href="#a3be1d5748d4f0957cbdbb7534a11bb5f">More...</a><br /></td></tr>
 <tr class="separator:a3be1d5748d4f0957cbdbb7534a11bb5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7818a287bbc29e8ddddecc04476634a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a7818a287bbc29e8ddddecc04476634a2">optimal_interpolation_ensi</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigmas, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points)</td></tr>
 <tr class="memdesc:a7818a287bbc29e8ddddecc04476634a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation using a structure function based on an ensemble See Lussana et al 2019 (DOI: 10.1002/qj.3646)  <a href="#a7818a287bbc29e8ddddecc04476634a2">More...</a><br /></td></tr>
@@ -240,6 +241,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5be31c2daf9599afa6022d48bc446d49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a5be31c2daf9599afa6022d48bc446d49">distance</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;grid, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, int num=1)</td></tr>
 <tr class="memdesc:a5be31c2daf9599afa6022d48bc446d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each point, calculates the distance to nearest gridpoint.  <a href="#a5be31c2daf9599afa6022d48bc446d49">More...</a><br /></td></tr>
 <tr class="separator:a5be31c2daf9599afa6022d48bc446d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362f7d221020b12316d58ea0ace930dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a362f7d221020b12316d58ea0ace930dc">distance</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;igrid, const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;ogrid, int num=1)</td></tr>
+<tr class="memdesc:a362f7d221020b12316d58ea0ace930dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each output gridpoint, calculate the distance to nearest input gridpoint.  <a href="#a362f7d221020b12316d58ea0ace930dc">More...</a><br /></td></tr>
+<tr class="separator:a362f7d221020b12316d58ea0ace930dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a249e13179f3a0a3f016db0186eab9e79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a249e13179f3a0a3f016db0186eab9e79">distance</a> (const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;grid, int num=1)</td></tr>
 <tr class="memdesc:a249e13179f3a0a3f016db0186eab9e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each gridpoint, calculates the distance to nearest point.  <a href="#a249e13179f3a0a3f016db0186eab9e79">More...</a><br /></td></tr>
 <tr class="separator:a249e13179f3a0a3f016db0186eab9e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1770,7 +1774,7 @@ Classes</h2></td></tr>
 </div>
 </div>
 <a id="a5be31c2daf9599afa6022d48bc446d49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5be31c2daf9599afa6022d48bc446d49">&#9670;&nbsp;</a></span>distance() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5be31c2daf9599afa6022d48bc446d49">&#9670;&nbsp;</a></span>distance() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1814,8 +1818,53 @@ Classes</h2></td></tr>
 
 </div>
 </div>
+<a id="a362f7d221020b12316d58ea0ace930dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a362f7d221020b12316d58ea0ace930dc">&#9670;&nbsp;</a></span>distance() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> gridpp::distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;&#160;</td>
+          <td class="paramname"><em>igrid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;&#160;</td>
+          <td class="paramname"><em>ogrid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>For each output gridpoint, calculate the distance to nearest input gridpoint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grid</td><td><a class="el" href="classgridpp_1_1Grid.html" title="Represents a 2D grid of locations and their metadata. ">Grid</a> </td></tr>
+    <tr><td class="paramname">ogrid</td><td>Output grid </td></tr>
+    <tr><td class="paramname">num</td><td>Number of points </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Distance [m] to nearest gridpoint for each gridpoint </dd></dl>
+
+</div>
+</div>
 <a id="a249e13179f3a0a3f016db0186eab9e79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a249e13179f3a0a3f016db0186eab9e79">&#9670;&nbsp;</a></span>distance() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a249e13179f3a0a3f016db0186eab9e79">&#9670;&nbsp;</a></span>distance() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3683,6 +3732,8 @@ Classes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is its own function because the variance parameterization is different than in the non-transformed case. </p>
+
 </div>
 </div>
 <a id="ac58b36dc321b2efebfbd9f7e3a4a75a8"></a>
@@ -4653,7 +4704,7 @@ Classes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 26 2020 21:10:49 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 27 2020 21:26:55 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
