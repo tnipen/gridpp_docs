@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['geodetic',['Geodetic',['../namespacegridpp.html#a2ad8e1533595470eee173fed2301446da1ebd63b8e57e792bf15682c6d7ae0481',1,'gridpp']]],
   ['get_5fclosest_5fneighbours',['get_closest_neighbours',['../classgridpp_1_1KDTree.html#a4c18ab50c627521c46d80e3ba8acd371',1,'gridpp::KDTree::get_closest_neighbours()'],['../classgridpp_1_1Points.html#a3f713483d5761aedf43134814e88342b',1,'gridpp::Points::get_closest_neighbours()'],['../classgridpp_1_1Grid.html#a207620544b644ff52f8fb0f93dadb6c5',1,'gridpp::Grid::get_closest_neighbours()']]],
   ['get_5fcoordinate_5ftype',['get_coordinate_type',['../classgridpp_1_1KDTree.html#a8528a12939db1e798aea689e70552500',1,'gridpp::KDTree::get_coordinate_type()'],['../classgridpp_1_1Points.html#ad75d38ec1c27d9dbdf24f762b7194159',1,'gridpp::Points::get_coordinate_type()'],['../classgridpp_1_1Grid.html#ac28ea315f3a861cf53975571a12b2e80',1,'gridpp::Grid::get_coordinate_type()']]],
   ['get_5felevs',['get_elevs',['../classgridpp_1_1Points.html#a3c5b0e915b0d9e416676b8299c9cfac7',1,'gridpp::Points::get_elevs()'],['../classgridpp_1_1Grid.html#a05de26c86287657755a0f14f3c4c9a2b',1,'gridpp::Grid::get_elevs()']]],
@@ -17,7 +18,7 @@ var searchData=
   ['get_5foptimal_5fthreshold',['get_optimal_threshold',['../namespacegridpp.html#a8f025aaf4879bf72b2a204dbb66be1f0',1,'gridpp']]],
   ['get_5fstatistic',['get_statistic',['../namespacegridpp.html#ab51b6612520aa8c1f7329e8e7115a96f',1,'gridpp']]],
   ['get_5fupper_5findex',['get_upper_index',['../namespacegridpp.html#a474f636d52c72de7477b8d69d94bc0f3',1,'gridpp']]],
-  ['grid',['Grid',['../classgridpp_1_1Grid.html',1,'gridpp::Grid'],['../classgridpp_1_1Grid.html#ade94f06329206784aa28b4f0a207ffef',1,'gridpp::Grid::Grid()'],['../classgridpp_1_1Grid.html#a22f4822e0868a07069492fe7a4b3260d',1,'gridpp::Grid::Grid(vec2 lats, vec2 lons, vec2 elevs=vec2(), vec2 lafs=vec2(), CoordinateType type=LatLon)']]],
+  ['grid',['Grid',['../classgridpp_1_1Grid.html',1,'gridpp::Grid'],['../classgridpp_1_1Grid.html#ade94f06329206784aa28b4f0a207ffef',1,'gridpp::Grid::Grid()'],['../classgridpp_1_1Grid.html#aef2883e4287e5c7f4c95c30bd69c59fd',1,'gridpp::Grid::Grid(vec2 lats, vec2 lons, vec2 elevs=vec2(), vec2 lafs=vec2(), CoordinateType type=Geodetic)']]],
   ['grid_2ecpp',['grid.cpp',['../grid_8cpp.html',1,'']]],
   ['gridding',['gridding',['../namespacegridpp.html#aa7bcb0762dfdc245f89df816f9bce3c9',1,'gridpp']]],
   ['gridding_2ecpp',['gridding.cpp',['../gridding_8cpp.html',1,'']]],

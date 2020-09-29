@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kss',['Kss',['../namespacegridpp.html#a58bc0350ffe93f9116cff6e2ee6a7d01a7d1b1f841d091ff4ac9d63e32e27f095',1,'gridpp']]]
+  ['geodetic',['Geodetic',['../namespacegridpp.html#a2ad8e1533595470eee173fed2301446da1ebd63b8e57e792bf15682c6d7ae0481',1,'gridpp']]]
 ];

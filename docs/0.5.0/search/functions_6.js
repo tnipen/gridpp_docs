@@ -17,6 +17,6 @@ var searchData=
   ['get_5foptimal_5fthreshold',['get_optimal_threshold',['../namespacegridpp.html#a8f025aaf4879bf72b2a204dbb66be1f0',1,'gridpp']]],
   ['get_5fstatistic',['get_statistic',['../namespacegridpp.html#ab51b6612520aa8c1f7329e8e7115a96f',1,'gridpp']]],
   ['get_5fupper_5findex',['get_upper_index',['../namespacegridpp.html#a474f636d52c72de7477b8d69d94bc0f3',1,'gridpp']]],
-  ['grid',['Grid',['../classgridpp_1_1Grid.html#ade94f06329206784aa28b4f0a207ffef',1,'gridpp::Grid::Grid()'],['../classgridpp_1_1Grid.html#a22f4822e0868a07069492fe7a4b3260d',1,'gridpp::Grid::Grid(vec2 lats, vec2 lons, vec2 elevs=vec2(), vec2 lafs=vec2(), CoordinateType type=LatLon)']]],
+  ['grid',['Grid',['../classgridpp_1_1Grid.html#ade94f06329206784aa28b4f0a207ffef',1,'gridpp::Grid::Grid()'],['../classgridpp_1_1Grid.html#aef2883e4287e5c7f4c95c30bd69c59fd',1,'gridpp::Grid::Grid(vec2 lats, vec2 lons, vec2 elevs=vec2(), vec2 lafs=vec2(), CoordinateType type=Geodetic)']]],
   ['gridding',['gridding',['../namespacegridpp.html#aa7bcb0762dfdc245f89df816f9bce3c9',1,'gridpp']]]
 ];

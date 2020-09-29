@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['latlon',['LatLon',['../namespacegridpp.html#a2ad8e1533595470eee173fed2301446da90a71b9aafb3c92c67cb261b5aae0b8e',1,'gridpp']]]
+  ['hss',['Hss',['../namespacegridpp.html#a58bc0350ffe93f9116cff6e2ee6a7d01a4aee95c2b891eff740228ebfbacbeb6c',1,'gridpp']]]
 ];
