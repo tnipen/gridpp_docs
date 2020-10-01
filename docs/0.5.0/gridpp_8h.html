@@ -113,6 +113,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Log.html">gridpp::Log</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Point.html">gridpp::Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a single point in some coordinate system.  <a href="classgridpp_1_1Point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgridpp_1_1Points.html">gridpp::Points</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a vector of locations and their metadata.  <a href="classgridpp_1_1Points.html#details">More...</a><br /></td></tr>
@@ -161,7 +162,8 @@ Typedefs</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:a2ad8e1533595470eee173fed2301446d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">gridpp::CoordinateType</a> { <a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446da1ebd63b8e57e792bf15682c6d7ae0481">gridpp::Geodetic</a> = 0, 
 <a class="el" href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446daa5920501d43a6fbe45311db6194a4aaa">gridpp::Cartesian</a> = 1
- }</td></tr>
+ }<tr class="memdesc:a2ad8e1533595470eee173fed2301446d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of coordinates for position of points.  <a href="namespacegridpp.html#a2ad8e1533595470eee173fed2301446d">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a2ad8e1533595470eee173fed2301446d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca92081b4647f72000e19e814b99ad10"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aca92081b4647f72000e19e814b99ad10">gridpp::CorrectionType</a> { <a class="el" href="namespacegridpp.html#aca92081b4647f72000e19e814b99ad10a555633134fc22c9a508a899150e5f31f">gridpp::Qq</a> = 0, 
 <a class="el" href="namespacegridpp.html#aca92081b4647f72000e19e814b99ad10a38e5882f5462af4d7234d5976a96abb8">gridpp::Multiplicative</a> = 10, 
@@ -497,17 +499,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a5b908d68759978acc57c0445254e8221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a5b908d68759978acc57c0445254e8221">gridpp::test_vec_output</a> ()</td></tr>
 <tr class="memdesc:a5b908d68759978acc57c0445254e8221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testing function for 1D output vector.  <a href="namespacegridpp.html#a5b908d68759978acc57c0445254e8221">More...</a><br /></td></tr>
 <tr class="separator:a5b908d68759978acc57c0445254e8221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabdb53a41d12cf63ab2477c62c029609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a3373bbd546635b011e492214cd154c67">ivec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aabdb53a41d12cf63ab2477c62c029609">gridpp::test_ivec_output</a> ()</td></tr>
+<tr class="separator:aabdb53a41d12cf63ab2477c62c029609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a121904f147fc7b4a554fe461b9bd95b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a121904f147fc7b4a554fe461b9bd95b6">gridpp::test_vec2_output</a> ()</td></tr>
 <tr class="memdesc:a121904f147fc7b4a554fe461b9bd95b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testing function for 2D output vector.  <a href="namespacegridpp.html#a121904f147fc7b4a554fe461b9bd95b6">More...</a><br /></td></tr>
 <tr class="separator:a121904f147fc7b4a554fe461b9bd95b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c0bce2651a00b158a4d7934fac9e0b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a5c0bce2651a00b158a4d7934fac9e0b1">gridpp::test_ivec2_output</a> ()</td></tr>
+<tr class="separator:a5c0bce2651a00b158a4d7934fac9e0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a210e1d7465e0fa0795b1d13cf8328c3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a210e1d7465e0fa0795b1d13cf8328c3c">gridpp::test_vec3_output</a> ()</td></tr>
 <tr class="memdesc:a210e1d7465e0fa0795b1d13cf8328c3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testing function for 3D output vector.  <a href="namespacegridpp.html#a210e1d7465e0fa0795b1d13cf8328c3c">More...</a><br /></td></tr>
 <tr class="separator:a210e1d7465e0fa0795b1d13cf8328c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabdb53a41d12cf63ab2477c62c029609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a3373bbd546635b011e492214cd154c67">ivec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aabdb53a41d12cf63ab2477c62c029609">gridpp::test_ivec_output</a> ()</td></tr>
-<tr class="memdesc:aabdb53a41d12cf63ab2477c62c029609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testing function for 1D output vector.  <a href="namespacegridpp.html#aabdb53a41d12cf63ab2477c62c029609">More...</a><br /></td></tr>
-<tr class="separator:aabdb53a41d12cf63ab2477c62c029609"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c0bce2651a00b158a4d7934fac9e0b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a5c0bce2651a00b158a4d7934fac9e0b1">gridpp::test_ivec2_output</a> ()</td></tr>
-<tr class="separator:a5c0bce2651a00b158a4d7934fac9e0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2cbfa4513b062ffb8b9f28b46bb579"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#af890ab76b6c60c11cc2b67b51697894e">ivec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aed2cbfa4513b062ffb8b9f28b46bb579">gridpp::test_ivec3_output</a> ()</td></tr>
+<tr class="separator:aed2cbfa4513b062ffb8b9f28b46bb579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab004eb9651bda65a13d5aa7cee88f669"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ab004eb9651bda65a13d5aa7cee88f669">gridpp::test_vec_argout</a> (<a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;distances)</td></tr>
+<tr class="memdesc:ab004eb9651bda65a13d5aa7cee88f669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testing function for 1D vector treated as output.  <a href="namespacegridpp.html#ab004eb9651bda65a13d5aa7cee88f669">More...</a><br /></td></tr>
+<tr class="separator:ab004eb9651bda65a13d5aa7cee88f669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef478463e74bea3cc6715f817bf0a47a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aef478463e74bea3cc6715f817bf0a47a">gridpp::test_vec2_argout</a> (<a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;distances)</td></tr>
+<tr class="memdesc:aef478463e74bea3cc6715f817bf0a47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testing function for 2D vector treated as output.  <a href="namespacegridpp.html#aef478463e74bea3cc6715f817bf0a47a">More...</a><br /></td></tr>
+<tr class="separator:aef478463e74bea3cc6715f817bf0a47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -560,7 +569,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 29 2020 21:55:24 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 1 2020 21:28:23 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
