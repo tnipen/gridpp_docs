@@ -11,5 +11,6 @@ var searchData=
   ['structure_2ecpp',['structure.cpp',['../structure_8cpp.html',1,'']]],
   ['structurefunction',['StructureFunction',['../classgridpp_1_1StructureFunction.html',1,'gridpp::StructureFunction'],['../classgridpp_1_1StructureFunction.html#a96c4e6ca99c70e872c8900bedb342a62',1,'gridpp::StructureFunction::StructureFunction()']]],
   ['sum',['Sum',['../namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4ea6c441851323ce18fdc0ceab44a5871b9',1,'gridpp']]],
-  ['swig_2ecpp',['swig.cpp',['../swig_8cpp.html',1,'']]]
+  ['swig_2ecpp',['swig.cpp',['../swig_8cpp.html',1,'']]],
+  ['swig_5fdefault_5fvalue',['swig_default_value',['../namespacegridpp.html#a7d5dc7a812ab19350d9e344468af84f1',1,'gridpp']]]
 ];

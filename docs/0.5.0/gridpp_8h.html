@@ -76,7 +76,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gridpp.h File Reference</div>  </div>
 </div><!--header-->
@@ -209,6 +210,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a69fc7b53a817fa91873f6e2585bbab51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a69fc7b53a817fa91873f6e2585bbab51">gridpp::point_in_rectangle</a> (const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;A, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;B, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;C, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;D, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;m)</td></tr>
+<tr class="separator:a69fc7b53a817fa91873f6e2585bbab51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Data assimilation methods</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><hr/>
 <p>Functions that merge observations with a background field </p>
@@ -293,9 +296,9 @@ Functions</h2></td></tr>
 <tr class="memitem:abe8de1111904fbc2585cd731d2b8c0d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#abe8de1111904fbc2585cd731d2b8c0d3">gridpp::apply_curve</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;fcst, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;curve, <a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85">Extrapolation</a> policy_below, <a class="el" href="namespacegridpp.html#a874f509d3b9c062842ed23de0e6e5f85">Extrapolation</a> policy_above)</td></tr>
 <tr class="memdesc:abe8de1111904fbc2585cd731d2b8c0d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply arbitrary calibration curve to 2D forecasts.  <a href="namespacegridpp.html#abe8de1111904fbc2585cd731d2b8c0d3">More...</a><br /></td></tr>
 <tr class="separator:abe8de1111904fbc2585cd731d2b8c0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a877ee7ef68f5899dae437d5013dae6cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a877ee7ef68f5899dae437d5013dae6cc">gridpp::monotonize_curve</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;curve)</td></tr>
-<tr class="memdesc:a877ee7ef68f5899dae437d5013dae6cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure calibration curve is monotonic, by removing points.  <a href="namespacegridpp.html#a877ee7ef68f5899dae437d5013dae6cc">More...</a><br /></td></tr>
-<tr class="separator:a877ee7ef68f5899dae437d5013dae6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86021084e6e5f9ae6688af2dd770ee3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ac86021084e6e5f9ae6688af2dd770ee3">gridpp::monotonize_curve</a> (<a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> curve)</td></tr>
+<tr class="memdesc:ac86021084e6e5f9ae6688af2dd770ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure calibration curve is monotonic, by removing points.  <a href="namespacegridpp.html#ac86021084e6e5f9ae6688af2dd770ee3">More...</a><br /></td></tr>
+<tr class="separator:ac86021084e6e5f9ae6688af2dd770ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f025aaf4879bf72b2a204dbb66be1f0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a8f025aaf4879bf72b2a204dbb66be1f0">gridpp::get_optimal_threshold</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;ref, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;fcst, float threshold, <a class="el" href="namespacegridpp.html#a58bc0350ffe93f9116cff6e2ee6a7d01">Metric</a> metric)</td></tr>
 <tr class="separator:a8f025aaf4879bf72b2a204dbb66be1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa553cee4afcb641880b0a6d54c8e12f7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aa553cee4afcb641880b0a6d54c8e12f7">gridpp::calc_score</a> (float a, float b, float c, float d, <a class="el" href="namespacegridpp.html#a58bc0350ffe93f9116cff6e2ee6a7d01">Metric</a> metric)</td></tr>
@@ -476,11 +479,35 @@ Functions</h2></td></tr>
 <tr class="separator:a82c83dc14b5404caf72dce626f5cddfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa90bfd512bc5371bfab4a255b3cf3aaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aa90bfd512bc5371bfab4a255b3cf3aaa">gridpp::compatible_size</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;grid, const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;v)</td></tr>
 <tr class="separator:aa90bfd512bc5371bfab4a255b3cf3aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">SWIG testing functions</div></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Constants</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><hr/>
+<p>Functions that assimilate observations onto a gridded background </p>
+</div></td></tr>
+<tr class="memitem:a19e2d1cc4815ea77534845d6ca8297fa"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">gridpp::MV</a> = NAN</td></tr>
+<tr class="memdesc:a19e2d1cc4815ea77534845d6ca8297fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Missing value indicator.  <a href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">More...</a><br /></td></tr>
+<tr class="separator:a19e2d1cc4815ea77534845d6ca8297fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eedb2e274a858f189438e48ff9a1ea5"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a9eedb2e274a858f189438e48ff9a1ea5">gridpp::MV_CML</a> = -999</td></tr>
+<tr class="memdesc:a9eedb2e274a858f189438e48ff9a1ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Missing value indicator in gridpp command-line tool.  <a href="namespacegridpp.html#a9eedb2e274a858f189438e48ff9a1ea5">More...</a><br /></td></tr>
+<tr class="separator:a9eedb2e274a858f189438e48ff9a1ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ca41a1266b028c5b48dc2c32b3b3b09"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a3ca41a1266b028c5b48dc2c32b3b3b09">gridpp::pi</a> = 3.14159265</td></tr>
+<tr class="memdesc:a3ca41a1266b028c5b48dc2c32b3b3b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mathematical constant pi.  <a href="namespacegridpp.html#a3ca41a1266b028c5b48dc2c32b3b3b09">More...</a><br /></td></tr>
+<tr class="separator:a3ca41a1266b028c5b48dc2c32b3b3b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1721333759896e182d3175a34ab4be"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#afd1721333759896e182d3175a34ab4be">gridpp::radius_earth</a> = 6.378137e6</td></tr>
+<tr class="memdesc:afd1721333759896e182d3175a34ab4be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radius of the earth [m].  <a href="namespacegridpp.html#afd1721333759896e182d3175a34ab4be">More...</a><br /></td></tr>
+<tr class="separator:afd1721333759896e182d3175a34ab4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+SWIG testing functions</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp3f13c41731d6e6b6ab1beaee9b1c149c"></a></p><hr/>
 <p>Functions for testing the SWIG interface.</p>
 <p>Not useful for any other purpose. </p>
-</div></td></tr>
+</td></tr>
+<tr class="memitem:a7d5dc7a812ab19350d9e344468af84f1"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a7d5dc7a812ab19350d9e344468af84f1">gridpp::swig_default_value</a> = -1</td></tr>
+<tr class="memdesc:a7d5dc7a812ab19350d9e344468af84f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default value used to fill array in SWIG testing functions.  <a href="namespacegridpp.html#a7d5dc7a812ab19350d9e344468af84f1">More...</a><br /></td></tr>
+<tr class="separator:a7d5dc7a812ab19350d9e344468af84f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6a7077495bb85e4ce4912843b37d58a"><td class="memItemLeft" align="right" valign="top">float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ab6a7077495bb85e4ce4912843b37d58a">gridpp::test_array</a> (float *v, int n)</td></tr>
 <tr class="memdesc:ab6a7077495bb85e4ce4912843b37d58a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Special function whose presense is needed for SWIG.  <a href="namespacegridpp.html#ab6a7077495bb85e4ce4912843b37d58a">More...</a><br /></td></tr>
 <tr class="separator:ab6a7077495bb85e4ce4912843b37d58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -517,25 +544,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aef478463e74bea3cc6715f817bf0a47a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aef478463e74bea3cc6715f817bf0a47a">gridpp::test_vec2_argout</a> (<a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;distances)</td></tr>
 <tr class="memdesc:aef478463e74bea3cc6715f817bf0a47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testing function for 2D vector treated as output.  <a href="namespacegridpp.html#aef478463e74bea3cc6715f817bf0a47a">More...</a><br /></td></tr>
 <tr class="separator:aef478463e74bea3cc6715f817bf0a47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Constants</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><hr/>
-<p>Functions that assimilate observations onto a gridded background </p>
-</div></td></tr>
-<tr class="memitem:a19e2d1cc4815ea77534845d6ca8297fa"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">gridpp::MV</a> = NAN</td></tr>
-<tr class="memdesc:a19e2d1cc4815ea77534845d6ca8297fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Missing value indicator.  <a href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">More...</a><br /></td></tr>
-<tr class="separator:a19e2d1cc4815ea77534845d6ca8297fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9eedb2e274a858f189438e48ff9a1ea5"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a9eedb2e274a858f189438e48ff9a1ea5">gridpp::MV_CML</a> = -999</td></tr>
-<tr class="memdesc:a9eedb2e274a858f189438e48ff9a1ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Missing value indicator in gridpp command-line tool.  <a href="namespacegridpp.html#a9eedb2e274a858f189438e48ff9a1ea5">More...</a><br /></td></tr>
-<tr class="separator:a9eedb2e274a858f189438e48ff9a1ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca41a1266b028c5b48dc2c32b3b3b09"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a3ca41a1266b028c5b48dc2c32b3b3b09">gridpp::pi</a> = 3.14159265</td></tr>
-<tr class="memdesc:a3ca41a1266b028c5b48dc2c32b3b3b09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mathematical constant pi.  <a href="namespacegridpp.html#a3ca41a1266b028c5b48dc2c32b3b3b09">More...</a><br /></td></tr>
-<tr class="separator:a3ca41a1266b028c5b48dc2c32b3b3b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd1721333759896e182d3175a34ab4be"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#afd1721333759896e182d3175a34ab4be">gridpp::radius_earth</a> = 6.37e6</td></tr>
-<tr class="memdesc:afd1721333759896e182d3175a34ab4be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radius of the earth [m].  <a href="namespacegridpp.html#afd1721333759896e182d3175a34ab4be">More...</a><br /></td></tr>
-<tr class="separator:afd1721333759896e182d3175a34ab4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a30997f7bb508f73aed90bb86c86e3a30"></a>
@@ -569,7 +577,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 1 2020 21:28:23 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 6 2020 12:53:06 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
