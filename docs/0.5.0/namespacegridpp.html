@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Gridpp 0.5.0: gridpp Namespace Reference</title>
+<title>Gridpp 0.5.0a2: gridpp Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,7 +24,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Gridpp 0.5.0
+   <div id="projectname">Gridpp 0.5.0a2
    </div>
    <div id="projectbrief">A post-processing library for gridded weather forecasts</div>
   </td>
@@ -69,7 +69,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
@@ -101,8 +100,6 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a69fc7b53a817fa91873f6e2585bbab51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a69fc7b53a817fa91873f6e2585bbab51">point_in_rectangle</a> (const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;A, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;B, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;C, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;D, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;m)</td></tr>
-<tr class="separator:a69fc7b53a817fa91873f6e2585bbab51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Data assimilation methods</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><hr/>
 <p>Functions that merge observations with a background field </p>
@@ -126,48 +123,48 @@ Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupText"><hr/>
 <p>Functions that apply neighbourhood filters on a gridded field </p>
 </div></td></tr>
-<tr class="memitem:a6cb0ef1d833046585f7e782acc831517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a6cb0ef1d833046585f7e782acc831517">neighbourhood</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, int radius, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
-<tr class="memdesc:a6cb0ef1d833046585f7e782acc831517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter, computing a statistic for a sliding square window.  <a href="#a6cb0ef1d833046585f7e782acc831517">More...</a><br /></td></tr>
-<tr class="separator:a6cb0ef1d833046585f7e782acc831517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a3e59ada29ece7b5432c54a960df84f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a2a3e59ada29ece7b5432c54a960df84f">neighbourhood</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, int radius, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
-<tr class="memdesc:a2a3e59ada29ece7b5432c54a960df84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter for an ensemble of fields.  <a href="#a2a3e59ada29ece7b5432c54a960df84f">More...</a><br /></td></tr>
-<tr class="separator:a2a3e59ada29ece7b5432c54a960df84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af09fe48df4f1c39b728cc1789b5d0698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af09fe48df4f1c39b728cc1789b5d0698">neighbourhood_quantile</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, float quantile, int radius)</td></tr>
-<tr class="memdesc:af09fe48df4f1c39b728cc1789b5d0698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a quantile in a sliding square neighbourhood.  <a href="#af09fe48df4f1c39b728cc1789b5d0698">More...</a><br /></td></tr>
-<tr class="separator:af09fe48df4f1c39b728cc1789b5d0698"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eae680fb91c0157ee7592fea20ecbf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a7eae680fb91c0157ee7592fea20ecbf6">neighbourhood_quantile</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, float quantile, int radius)</td></tr>
-<tr class="memdesc:a7eae680fb91c0157ee7592fea20ecbf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a quantile in a sliding square neighbourhood for an ensemble of fields.  <a href="#a7eae680fb91c0157ee7592fea20ecbf6">More...</a><br /></td></tr>
-<tr class="separator:a7eae680fb91c0157ee7592fea20ecbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d8d4c1c26ca4585fb4d71f975388ae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a7d8d4c1c26ca4585fb4d71f975388ae3">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, float quantile, int radius, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
-<tr class="memdesc:a7d8d4c1c26ca4585fb4d71f975388ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile.  <a href="#a7d8d4c1c26ca4585fb4d71f975388ae3">More...</a><br /></td></tr>
-<tr class="separator:a7d8d4c1c26ca4585fb4d71f975388ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc3152c1f0f4ed4982479fbaeff04a9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#adc3152c1f0f4ed4982479fbaeff04a9e">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, float quantile, int radius, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
-<tr class="memdesc:adc3152c1f0f4ed4982479fbaeff04a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile for ensemble of fields.  <a href="#adc3152c1f0f4ed4982479fbaeff04a9e">More...</a><br /></td></tr>
-<tr class="separator:adc3152c1f0f4ed4982479fbaeff04a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a740faed4c20109952e41677563c361bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a740faed4c20109952e41677563c361bf">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;quantile, int radius, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
-<tr class="memdesc:a740faed4c20109952e41677563c361bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile, with spatially varying quantile.  <a href="#a740faed4c20109952e41677563c361bf">More...</a><br /></td></tr>
-<tr class="separator:a740faed4c20109952e41677563c361bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad43deffb562c7c3b88af76d91f925191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ad43deffb562c7c3b88af76d91f925191">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;quantile, int radius, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
-<tr class="memdesc:ad43deffb562c7c3b88af76d91f925191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile for ensemble of fields, with spatially varying quantile.  <a href="#ad43deffb562c7c3b88af76d91f925191">More...</a><br /></td></tr>
-<tr class="separator:ad43deffb562c7c3b88af76d91f925191"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2bc1219bef15951fc7f1cb48227bd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#acd2bc1219bef15951fc7f1cb48227bd1">neighbourhood_brute_force</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, int radius, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
-<tr class="memdesc:acd2bc1219bef15951fc7f1cb48227bd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter without any shortcuts.  <a href="#acd2bc1219bef15951fc7f1cb48227bd1">More...</a><br /></td></tr>
-<tr class="separator:acd2bc1219bef15951fc7f1cb48227bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4acd0bdb20c17c4da269121d78b4730b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a4acd0bdb20c17c4da269121d78b4730b">neighbourhood_brute_force</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, int radius, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
-<tr class="memdesc:a4acd0bdb20c17c4da269121d78b4730b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter without any shortcuts.  <a href="#a4acd0bdb20c17c4da269121d78b4730b">More...</a><br /></td></tr>
-<tr class="separator:a4acd0bdb20c17c4da269121d78b4730b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0ea4d108bd89fc8d3c4c06146652af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#acd0ea4d108bd89fc8d3c4c06146652af">neighbourhood</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, int halfwidth, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
+<tr class="memdesc:acd0ea4d108bd89fc8d3c4c06146652af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter, computing a statistic for a sliding square window.  <a href="#acd0ea4d108bd89fc8d3c4c06146652af">More...</a><br /></td></tr>
+<tr class="separator:acd0ea4d108bd89fc8d3c4c06146652af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a113e3b7bcb93ca45418f76202752eccb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a113e3b7bcb93ca45418f76202752eccb">neighbourhood</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, int halfwidth, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
+<tr class="memdesc:a113e3b7bcb93ca45418f76202752eccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter for an ensemble of fields.  <a href="#a113e3b7bcb93ca45418f76202752eccb">More...</a><br /></td></tr>
+<tr class="separator:a113e3b7bcb93ca45418f76202752eccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b86195ba7162067d0ac8c7a0ec2516d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a0b86195ba7162067d0ac8c7a0ec2516d">neighbourhood_quantile</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, float quantile, int halfwidth)</td></tr>
+<tr class="memdesc:a0b86195ba7162067d0ac8c7a0ec2516d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a quantile in a sliding square neighbourhood.  <a href="#a0b86195ba7162067d0ac8c7a0ec2516d">More...</a><br /></td></tr>
+<tr class="separator:a0b86195ba7162067d0ac8c7a0ec2516d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5babcfcd829e5b9d5f77fabda83a3c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aa5babcfcd829e5b9d5f77fabda83a3c6">neighbourhood_quantile</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, float quantile, int halfwidth)</td></tr>
+<tr class="memdesc:aa5babcfcd829e5b9d5f77fabda83a3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a quantile in a sliding square neighbourhood for an ensemble of fields.  <a href="#aa5babcfcd829e5b9d5f77fabda83a3c6">More...</a><br /></td></tr>
+<tr class="separator:aa5babcfcd829e5b9d5f77fabda83a3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6786f517b950ba9ef7dcde0cce1f7d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ae6786f517b950ba9ef7dcde0cce1f7d3">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, float quantile, int halfwidth, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
+<tr class="memdesc:ae6786f517b950ba9ef7dcde0cce1f7d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile.  <a href="#ae6786f517b950ba9ef7dcde0cce1f7d3">More...</a><br /></td></tr>
+<tr class="separator:ae6786f517b950ba9ef7dcde0cce1f7d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40d0e1b6aca2bb9567532cf6cc01bce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ab40d0e1b6aca2bb9567532cf6cc01bce">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, float quantile, int halfwidth, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
+<tr class="memdesc:ab40d0e1b6aca2bb9567532cf6cc01bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile for ensemble of fields.  <a href="#ab40d0e1b6aca2bb9567532cf6cc01bce">More...</a><br /></td></tr>
+<tr class="separator:ab40d0e1b6aca2bb9567532cf6cc01bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82dfc7c35da610c759db803217bba571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a82dfc7c35da610c759db803217bba571">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;quantile, int halfwidth, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
+<tr class="memdesc:a82dfc7c35da610c759db803217bba571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile, with spatially varying quantile.  <a href="#a82dfc7c35da610c759db803217bba571">More...</a><br /></td></tr>
+<tr class="separator:a82dfc7c35da610c759db803217bba571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606148c2a058457b5554633d74c8ec47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a606148c2a058457b5554633d74c8ec47">neighbourhood_quantile_fast</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;quantile, int halfwidth, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
+<tr class="memdesc:a606148c2a058457b5554633d74c8ec47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast and approximate neighbourhood quantile for ensemble of fields, with spatially varying quantile.  <a href="#a606148c2a058457b5554633d74c8ec47">More...</a><br /></td></tr>
+<tr class="separator:a606148c2a058457b5554633d74c8ec47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9293a89da0d2fd92fab0c6c77971668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af9293a89da0d2fd92fab0c6c77971668">neighbourhood_brute_force</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, int halfwidth, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
+<tr class="memdesc:af9293a89da0d2fd92fab0c6c77971668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter without any shortcuts.  <a href="#af9293a89da0d2fd92fab0c6c77971668">More...</a><br /></td></tr>
+<tr class="separator:af9293a89da0d2fd92fab0c6c77971668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66097bdd8a390ac66f7df82e673bb38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ae66097bdd8a390ac66f7df82e673bb38">neighbourhood_brute_force</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, int halfwidth, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
+<tr class="memdesc:ae66097bdd8a390ac66f7df82e673bb38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spatial neighbourhood filter without any shortcuts.  <a href="#ae66097bdd8a390ac66f7df82e673bb38">More...</a><br /></td></tr>
+<tr class="separator:ae66097bdd8a390ac66f7df82e673bb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516cb49da9ae4c0941eb1a91f86128f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a516cb49da9ae4c0941eb1a91f86128f6">get_neighbourhood_thresholds</a> (const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, int num_thresholds)</td></tr>
 <tr class="memdesc:a516cb49da9ae4c0941eb1a91f86128f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate appropriate approximation thresholds for neighbourhood quantile.  <a href="#a516cb49da9ae4c0941eb1a91f86128f6">More...</a><br /></td></tr>
 <tr class="separator:a516cb49da9ae4c0941eb1a91f86128f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af91358ca3dc7da8df4abfd7fc931ad84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af91358ca3dc7da8df4abfd7fc931ad84">get_neighbourhood_thresholds</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, int num_thresholds)</td></tr>
 <tr class="memdesc:af91358ca3dc7da8df4abfd7fc931ad84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate appropriate approximation thresholds for neighbourhood quantile based on an * ensemble.  <a href="#af91358ca3dc7da8df4abfd7fc931ad84">More...</a><br /></td></tr>
 <tr class="separator:af91358ca3dc7da8df4abfd7fc931ad84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95bd45ee6bf0214108c4eb75844d87ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a95bd45ee6bf0214108c4eb75844d87ba">neighbourhood_ens</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, int radius, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
-<tr class="memdesc:a95bd45ee6bf0214108c4eb75844d87ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated: Compute neighbourhood statistic on ensemble field.  <a href="#a95bd45ee6bf0214108c4eb75844d87ba">More...</a><br /></td></tr>
-<tr class="separator:a95bd45ee6bf0214108c4eb75844d87ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae159e52654beccb06bd9db337bac5c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aae159e52654beccb06bd9db337bac5c0">neighbourhood_quantile_ens</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, float quantile, int radius)</td></tr>
-<tr class="memdesc:aae159e52654beccb06bd9db337bac5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated: Compute neighbourhood quantiles on ensemble field.  <a href="#aae159e52654beccb06bd9db337bac5c0">More...</a><br /></td></tr>
-<tr class="separator:aae159e52654beccb06bd9db337bac5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24dc2d1196c58fc62f11941e4aa10765"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a24dc2d1196c58fc62f11941e4aa10765">neighbourhood_ens</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, int halfwidth, <a class="el" href="namespacegridpp.html#a232191788fcb9015e7ee56848e8c6e4e">Statistic</a> statistic)</td></tr>
+<tr class="memdesc:a24dc2d1196c58fc62f11941e4aa10765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated: Compute neighbourhood statistic on ensemble field.  <a href="#a24dc2d1196c58fc62f11941e4aa10765">More...</a><br /></td></tr>
+<tr class="separator:a24dc2d1196c58fc62f11941e4aa10765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae524cfd3076a97c63d2ee0dd068349e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ae524cfd3076a97c63d2ee0dd068349e2">neighbourhood_quantile_ens</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, float quantile, int halfwidth)</td></tr>
+<tr class="memdesc:ae524cfd3076a97c63d2ee0dd068349e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated: Compute neighbourhood quantiles on ensemble field.  <a href="#ae524cfd3076a97c63d2ee0dd068349e2">More...</a><br /></td></tr>
+<tr class="separator:ae524cfd3076a97c63d2ee0dd068349e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d57f6bff576b00854895f983dd0548e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a0d57f6bff576b00854895f983dd0548e">neighbourhood_quantile_ens_fast</a> (const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, float quantile, int radius, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;thresholds)</td></tr>
 <tr class="memdesc:a0d57f6bff576b00854895f983dd0548e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deprecated: Compute neighbourhood quantiles fast on ensemble field.  <a href="#a0d57f6bff576b00854895f983dd0548e">More...</a><br /></td></tr>
 <tr class="separator:a0d57f6bff576b00854895f983dd0548e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -370,6 +367,9 @@ Functions</h2></td></tr>
 <tr class="separator:a82c83dc14b5404caf72dce626f5cddfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa90bfd512bc5371bfab4a255b3cf3aaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aa90bfd512bc5371bfab4a255b3cf3aaa">compatible_size</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;grid, const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;v)</td></tr>
 <tr class="separator:aa90bfd512bc5371bfab4a255b3cf3aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fc7b53a817fa91873f6e2585bbab51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a69fc7b53a817fa91873f6e2585bbab51">point_in_rectangle</a> (const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;A, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;B, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;C, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;D, const <a class="el" href="classgridpp_1_1Point.html">Point</a> &amp;m)</td></tr>
+<tr class="memdesc:a69fc7b53a817fa91873f6e2585bbab51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a point is located inside a rectangle formed by 4 points.  <a href="#a69fc7b53a817fa91873f6e2585bbab51">More...</a><br /></td></tr>
+<tr class="separator:a69fc7b53a817fa91873f6e2585bbab51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -2811,8 +2811,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6cb0ef1d833046585f7e782acc831517"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cb0ef1d833046585f7e782acc831517">&#9670;&nbsp;</a></span>neighbourhood() <span class="overload">[1/2]</span></h2>
+<a id="acd0ea4d108bd89fc8d3c4c06146652af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd0ea4d108bd89fc8d3c4c06146652af">&#9670;&nbsp;</a></span>neighbourhood() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2827,7 +2827,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2847,7 +2847,7 @@ SWIG testing functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">input</td><td>2D grid of values </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">statistic</td><td>Statistic to compute </td></tr>
   </table>
   </dd>
@@ -2855,8 +2855,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2a3e59ada29ece7b5432c54a960df84f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a3e59ada29ece7b5432c54a960df84f">&#9670;&nbsp;</a></span>neighbourhood() <span class="overload">[2/2]</span></h2>
+<a id="a113e3b7bcb93ca45418f76202752eccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a113e3b7bcb93ca45418f76202752eccb">&#9670;&nbsp;</a></span>neighbourhood() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2871,7 +2871,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2891,7 +2891,7 @@ SWIG testing functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">input</td><td>3D grid of values with dimensions (Y, X, E) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">statistic</td><td>Statistic to compute </td></tr>
   </table>
   </dd>
@@ -2899,8 +2899,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acd2bc1219bef15951fc7f1cb48227bd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd2bc1219bef15951fc7f1cb48227bd1">&#9670;&nbsp;</a></span>neighbourhood_brute_force() <span class="overload">[1/2]</span></h2>
+<a id="af9293a89da0d2fd92fab0c6c77971668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9293a89da0d2fd92fab0c6c77971668">&#9670;&nbsp;</a></span>neighbourhood_brute_force() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2915,7 +2915,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2935,7 +2935,7 @@ SWIG testing functions</h2></td></tr>
 <p>This is quite slow and is only useful for testing. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">input</td><td>2D grid of values </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">operation</td><td>one of min, mean, median, max </td></tr>
   </table>
   </dd>
@@ -2943,8 +2943,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4acd0bdb20c17c4da269121d78b4730b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4acd0bdb20c17c4da269121d78b4730b">&#9670;&nbsp;</a></span>neighbourhood_brute_force() <span class="overload">[2/2]</span></h2>
+<a id="ae66097bdd8a390ac66f7df82e673bb38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66097bdd8a390ac66f7df82e673bb38">&#9670;&nbsp;</a></span>neighbourhood_brute_force() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2959,7 +2959,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2979,7 +2979,7 @@ SWIG testing functions</h2></td></tr>
 <p>This is quite slow and is only useful for testing. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">input</td><td>3D grid of values with dimensions (Y, X, E) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">operation</td><td>one of min, mean, median, max </td></tr>
   </table>
   </dd>
@@ -2987,8 +2987,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a95bd45ee6bf0214108c4eb75844d87ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95bd45ee6bf0214108c4eb75844d87ba">&#9670;&nbsp;</a></span>neighbourhood_ens()</h2>
+<a id="a24dc2d1196c58fc62f11941e4aa10765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24dc2d1196c58fc62f11941e4aa10765">&#9670;&nbsp;</a></span>neighbourhood_ens()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3003,7 +3003,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3020,12 +3020,12 @@ SWIG testing functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deprecated: Compute neighbourhood statistic on ensemble field. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Use <a class="el" href="namespacegridpp.html#a6cb0ef1d833046585f7e782acc831517" title="Spatial neighbourhood filter, computing a statistic for a sliding square window. ">neighbourhood()</a> function </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>Use <a class="el" href="namespacegridpp.html#acd0ea4d108bd89fc8d3c4c06146652af" title="Spatial neighbourhood filter, computing a statistic for a sliding square window. ">neighbourhood()</a> function </dd></dl>
 
 </div>
 </div>
-<a id="af09fe48df4f1c39b728cc1789b5d0698"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af09fe48df4f1c39b728cc1789b5d0698">&#9670;&nbsp;</a></span>neighbourhood_quantile() <span class="overload">[1/2]</span></h2>
+<a id="a0b86195ba7162067d0ac8c7a0ec2516d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b86195ba7162067d0ac8c7a0ec2516d">&#9670;&nbsp;</a></span>neighbourhood_quantile() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3046,7 +3046,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>&#160;</td>
+          <td class="paramname"><em>halfwidth</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3061,15 +3061,15 @@ SWIG testing functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">input</td><td>2D grid of values </td></tr>
     <tr><td class="paramname">quantile</td><td>Quantile to compute (between 0 and 1) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a7eae680fb91c0157ee7592fea20ecbf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7eae680fb91c0157ee7592fea20ecbf6">&#9670;&nbsp;</a></span>neighbourhood_quantile() <span class="overload">[2/2]</span></h2>
+<a id="aa5babcfcd829e5b9d5f77fabda83a3c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5babcfcd829e5b9d5f77fabda83a3c6">&#9670;&nbsp;</a></span>neighbourhood_quantile() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3090,7 +3090,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>&#160;</td>
+          <td class="paramname"><em>halfwidth</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3105,15 +3105,15 @@ SWIG testing functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">input</td><td>3D grid of values with dimensions (Y, X, E) </td></tr>
     <tr><td class="paramname">quantile</td><td>Quantile to compute (between 0 and 1) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="aae159e52654beccb06bd9db337bac5c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae159e52654beccb06bd9db337bac5c0">&#9670;&nbsp;</a></span>neighbourhood_quantile_ens()</h2>
+<a id="ae524cfd3076a97c63d2ee0dd068349e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae524cfd3076a97c63d2ee0dd068349e2">&#9670;&nbsp;</a></span>neighbourhood_quantile_ens()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3134,7 +3134,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>&#160;</td>
+          <td class="paramname"><em>halfwidth</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3145,7 +3145,7 @@ SWIG testing functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deprecated: Compute neighbourhood quantiles on ensemble field. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Use <a class="el" href="namespacegridpp.html#af09fe48df4f1c39b728cc1789b5d0698" title="Computes a quantile in a sliding square neighbourhood. ">neighbourhood_quantile()</a> function </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Use <a class="el" href="namespacegridpp.html#a0b86195ba7162067d0ac8c7a0ec2516d" title="Computes a quantile in a sliding square neighbourhood. ">neighbourhood_quantile()</a> function </dd></dl>
 
 </div>
 </div>
@@ -3188,12 +3188,12 @@ SWIG testing functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deprecated: Compute neighbourhood quantiles fast on ensemble field. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Use <a class="el" href="namespacegridpp.html#a7d8d4c1c26ca4585fb4d71f975388ae3" title="Fast and approximate neighbourhood quantile. ">neighbourhood_quantile_fast()</a> function </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Use <a class="el" href="namespacegridpp.html#ae6786f517b950ba9ef7dcde0cce1f7d3" title="Fast and approximate neighbourhood quantile. ">neighbourhood_quantile_fast()</a> function </dd></dl>
 
 </div>
 </div>
-<a id="a7d8d4c1c26ca4585fb4d71f975388ae3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d8d4c1c26ca4585fb4d71f975388ae3">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[1/4]</span></h2>
+<a id="ae6786f517b950ba9ef7dcde0cce1f7d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6786f517b950ba9ef7dcde0cce1f7d3">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3214,7 +3214,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3235,7 +3235,7 @@ SWIG testing functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">input</td><td>2D grid of values </td></tr>
     <tr><td class="paramname">quantile</td><td>Quantile to compute (between 0 and 1) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">thresholds</td><td>Vector of thresholds to use to approximate value </td></tr>
   </table>
   </dd>
@@ -3243,8 +3243,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adc3152c1f0f4ed4982479fbaeff04a9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc3152c1f0f4ed4982479fbaeff04a9e">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[2/4]</span></h2>
+<a id="ab40d0e1b6aca2bb9567532cf6cc01bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40d0e1b6aca2bb9567532cf6cc01bce">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3265,7 +3265,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3286,7 +3286,7 @@ SWIG testing functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">input</td><td>3D grid of values with dimensions (Y, X, E) </td></tr>
     <tr><td class="paramname">quantile</td><td>Quantile to compute (between 0 and 1) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">thresholds</td><td>Vector of thresholds to use to approximate value </td></tr>
   </table>
   </dd>
@@ -3294,8 +3294,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a740faed4c20109952e41677563c361bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a740faed4c20109952e41677563c361bf">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[3/4]</span></h2>
+<a id="a82dfc7c35da610c759db803217bba571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82dfc7c35da610c759db803217bba571">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3316,7 +3316,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3337,7 +3337,7 @@ SWIG testing functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">input</td><td>2D grid of values </td></tr>
     <tr><td class="paramname">quantile</td><td>2D grid quantiles to compute (between 0 and 1) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">thresholds</td><td>Vector of thresholds to use to approximate value </td></tr>
   </table>
   </dd>
@@ -3345,8 +3345,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad43deffb562c7c3b88af76d91f925191"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad43deffb562c7c3b88af76d91f925191">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[4/4]</span></h2>
+<a id="a606148c2a058457b5554633d74c8ec47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606148c2a058457b5554633d74c8ec47">&#9670;&nbsp;</a></span>neighbourhood_quantile_fast() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3367,7 +3367,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em>, </td>
+          <td class="paramname"><em>halfwidth</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3388,7 +3388,7 @@ SWIG testing functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">input</td><td>3D grid of values with dimensions (Y, X, E) </td></tr>
     <tr><td class="paramname">quantile</td><td>2D grid quantiles to compute (between 0 and 1) </td></tr>
-    <tr><td class="paramname">radius</td><td>Filter radius in number of gridpoints </td></tr>
+    <tr><td class="paramname">halfwidth</td><td>Filter halfwidth in number of gridpoints </td></tr>
     <tr><td class="paramname">thresholds</td><td>Vector of thresholds to use to approximate value </td></tr>
   </table>
   </dd>
@@ -3800,6 +3800,19 @@ SWIG testing functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Checks if a point is located inside a rectangle formed by 4 points. </p>
+<p>The 4 points must be provided in an order that draws out a rectangle (either clockwise or counter-clockwise) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">A</td><td>A point in the rectangle </td></tr>
+    <tr><td class="paramname">B</td><td>A point in the rectangle </td></tr>
+    <tr><td class="paramname">C</td><td>A point in the rectangle </td></tr>
+    <tr><td class="paramname">D</td><td>A point in the rectangle </td></tr>
+    <tr><td class="paramname">m</td><td>The point to test if it is inside </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the point is inside, False otherwise </dd></dl>
 
 </div>
 </div>
@@ -4851,7 +4864,7 @@ SWIG testing functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 6 2020 12:53:06 for Gridpp 0.5.0 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 13 2020 21:28:20 for Gridpp 0.5.0a2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
