@@ -104,18 +104,22 @@ Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupText"><hr/>
 <p>Functions that merge observations with a background field </p>
 </div></td></tr>
-<tr class="memitem:a6c4e4a8785ddcbdb0787d59a32fe4ee6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a6c4e4a8785ddcbdb0787d59a32fe4ee6">optimal_interpolation</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;background, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pratios, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points, float cross_validation_distance=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
-<tr class="memdesc:a6c4e4a8785ddcbdb0787d59a32fe4ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation for a deterministic gridded field.  <a href="#a6c4e4a8785ddcbdb0787d59a32fe4ee6">More...</a><br /></td></tr>
-<tr class="separator:a6c4e4a8785ddcbdb0787d59a32fe4ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac16a068f037d16ebf3d7755d15a75240"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ac16a068f037d16ebf3d7755d15a75240">optimal_interpolation</a> (const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;bpoints, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;background, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pratios, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points, float cross_validation_distance=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
-<tr class="memdesc:ac16a068f037d16ebf3d7755d15a75240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation for a deterministic vector of points.  <a href="#ac16a068f037d16ebf3d7755d15a75240">More...</a><br /></td></tr>
-<tr class="separator:ac16a068f037d16ebf3d7755d15a75240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be1d5748d4f0957cbdbb7534a11bb5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a3be1d5748d4f0957cbdbb7534a11bb5f">optimal_interpolation_transform</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;background, float bsigma, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigma, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points, const <a class="el" href="classgridpp_1_1Transform.html">Transform</a> &amp;transform)</td></tr>
-<tr class="memdesc:a3be1d5748d4f0957cbdbb7534a11bb5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is its own function because the variance parameterization is different than in the non-transformed case.  <a href="#a3be1d5748d4f0957cbdbb7534a11bb5f">More...</a><br /></td></tr>
-<tr class="separator:a3be1d5748d4f0957cbdbb7534a11bb5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7818a287bbc29e8ddddecc04476634a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a7818a287bbc29e8ddddecc04476634a2">optimal_interpolation_ensi</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;input, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigmas, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points)</td></tr>
-<tr class="memdesc:a7818a287bbc29e8ddddecc04476634a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation using a structure function based on an ensemble See Lussana et al 2019 (DOI: 10.1002/qj.3646)  <a href="#a7818a287bbc29e8ddddecc04476634a2">More...</a><br /></td></tr>
-<tr class="separator:a7818a287bbc29e8ddddecc04476634a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a347178353925d2c534775796842ffc1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a347178353925d2c534775796842ffc1e">optimal_interpolation</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;background, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pratios, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points)</td></tr>
+<tr class="memdesc:a347178353925d2c534775796842ffc1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation for a deterministic gridded field.  <a href="#a347178353925d2c534775796842ffc1e">More...</a><br /></td></tr>
+<tr class="separator:a347178353925d2c534775796842ffc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa38efbe48a09e961d2e7763ac4bb4958"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#aa38efbe48a09e961d2e7763ac4bb4958">optimal_interpolation</a> (const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;bpoints, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;background, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pratios, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points)</td></tr>
+<tr class="memdesc:aa38efbe48a09e961d2e7763ac4bb4958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation for a deterministic vector of points.  <a href="#aa38efbe48a09e961d2e7763ac4bb4958">More...</a><br /></td></tr>
+<tr class="separator:aa38efbe48a09e961d2e7763ac4bb4958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dff1131daf0be251602d8071fbf51ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a2dff1131daf0be251602d8071fbf51ae">optimal_interpolation_transform</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;background, float bsigma, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigmas, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points, const <a class="el" href="classgridpp_1_1Transform.html">Transform</a> &amp;transform)</td></tr>
+<tr class="memdesc:a2dff1131daf0be251602d8071fbf51ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is its own function because the variance parameterization is different than in the non-transformed case.  <a href="#a2dff1131daf0be251602d8071fbf51ae">More...</a><br /></td></tr>
+<tr class="separator:a2dff1131daf0be251602d8071fbf51ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542aaf75e982d90c4acbc8bc6684fbc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a542aaf75e982d90c4acbc8bc6684fbc7">optimal_interpolation_transform</a> (const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;bpoints, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;background, float bsigma, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigmas, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points, const <a class="el" href="classgridpp_1_1Transform.html">Transform</a> &amp;transform)</td></tr>
+<tr class="separator:a542aaf75e982d90c4acbc8bc6684fbc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84aca91d4dcd86e44dcd933ad9253c0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a84aca91d4dcd86e44dcd933ad9253c0c">optimal_interpolation_ensi</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;bgrid, const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;background, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigmas, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points)</td></tr>
+<tr class="memdesc:a84aca91d4dcd86e44dcd933ad9253c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimal interpolation using a structure function based on an ensemble See Lussana et al 2019 (DOI: 10.1002/qj.3646)  <a href="#a84aca91d4dcd86e44dcd933ad9253c0c">More...</a><br /></td></tr>
+<tr class="separator:a84aca91d4dcd86e44dcd933ad9253c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbceeeb566e1bc0db5342453df21032f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#abbceeeb566e1bc0db5342453df21032f">optimal_interpolation_ensi</a> (const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;bpoints, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;background, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;pobs, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;psigmas, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;pbackground, const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;structure, int max_points)</td></tr>
+<tr class="separator:abbceeeb566e1bc0db5342453df21032f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a0936d4bc343fb1915adbdfb465f914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a3a0936d4bc343fb1915adbdfb465f914">fill</a> (const <a class="el" href="classgridpp_1_1Grid.html">Grid</a> &amp;igrid, const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;input, const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;points, const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;radii, float value, bool outside)</td></tr>
 <tr class="memdesc:a3a0936d4bc343fb1915adbdfb465f914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill in values inside or outside a set of circles.  <a href="#a3a0936d4bc343fb1915adbdfb465f914">More...</a><br /></td></tr>
 <tr class="separator:a3a0936d4bc343fb1915adbdfb465f914"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -346,14 +350,14 @@ Functions</h2></td></tr>
 <tr class="separator:a18c9cb0bf34070767072a54d57655a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34e8bd4909dbcd8705e29fd5450b62b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a34e8bd4909dbcd8705e29fd5450b62b7">not_implemented_error</a> ()</td></tr>
 <tr class="separator:a34e8bd4909dbcd8705e29fd5450b62b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836d012b8cd84738991532cadc2338bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a836d012b8cd84738991532cadc2338bc">init_ivec2</a> (int Y, int X, int value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
-<tr class="memdesc:a836d012b8cd84738991532cadc2338bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, with a given value.  <a href="#a836d012b8cd84738991532cadc2338bc">More...</a><br /></td></tr>
-<tr class="separator:a836d012b8cd84738991532cadc2338bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631bb707c7757265090e384798e7c129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a13a02343378719c38e15d63994a59f81">ivec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a631bb707c7757265090e384798e7c129">init_ivec2</a> (int Y, int X, int value)</td></tr>
+<tr class="memdesc:a631bb707c7757265090e384798e7c129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, with a given value.  <a href="#a631bb707c7757265090e384798e7c129">More...</a><br /></td></tr>
+<tr class="separator:a631bb707c7757265090e384798e7c129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9d50de69e08ca72dbd4d8ad55cf6ac8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#ab9d50de69e08ca72dbd4d8ad55cf6ac8">init_vec2</a> (int Y, int X, float value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
 <tr class="separator:ab9d50de69e08ca72dbd4d8ad55cf6ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0ba1f360e7dcec399bcdb8933bee3bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#af890ab76b6c60c11cc2b67b51697894e">ivec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#af0ba1f360e7dcec399bcdb8933bee3bd">init_ivec3</a> (int Y, int X, int E, int value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
-<tr class="memdesc:af0ba1f360e7dcec399bcdb8933bee3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, E, with a given value.  <a href="#af0ba1f360e7dcec399bcdb8933bee3bd">More...</a><br /></td></tr>
-<tr class="separator:af0ba1f360e7dcec399bcdb8933bee3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e69a8b88e7116abdb1744580c9ab961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#af890ab76b6c60c11cc2b67b51697894e">ivec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a0e69a8b88e7116abdb1744580c9ab961">init_ivec3</a> (int Y, int X, int E, int value)</td></tr>
+<tr class="memdesc:a0e69a8b88e7116abdb1744580c9ab961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a vector of size Y, X, E, with a given value.  <a href="#a0e69a8b88e7116abdb1744580c9ab961">More...</a><br /></td></tr>
+<tr class="separator:a0e69a8b88e7116abdb1744580c9ab961"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55516a1cc2281b4d56c56317a89f67ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a55516a1cc2281b4d56c56317a89f67ba">init_vec3</a> (int Y, int X, int E, float value=<a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a>)</td></tr>
 <tr class="separator:a55516a1cc2281b4d56c56317a89f67ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a500b9e6d54efeb40ada79a33827bcf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegridpp.html#a500b9e6d54efeb40ada79a33827bcf30">calc_even_quantiles</a> (const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;values, int num)</td></tr>
@@ -719,17 +723,17 @@ SWIG testing functions</h2></td></tr>
 
 <p>Binary verification metrics. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a1ed455ade62a170a9fbb790dbdf334d9"></a>Ets&#160;</td><td class="fielddoc"><p>Mean of values. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a1ed455ade62a170a9fbb790dbdf334d9"></a>Ets&#160;</td><td class="fielddoc"><p>Equitable threat score. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a1730808e4a240f604b30b20e9e563713"></a>Ts&#160;</td><td class="fielddoc"><p>Mean of values. </p>
+<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a1730808e4a240f604b30b20e9e563713"></a>Ts&#160;</td><td class="fielddoc"><p>Threat score. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a7d1b1f841d091ff4ac9d63e32e27f095"></a>Kss&#160;</td><td class="fielddoc"><p>Minimum of values. </p>
+<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a7d1b1f841d091ff4ac9d63e32e27f095"></a>Kss&#160;</td><td class="fielddoc"><p>Hannsen-Kuiper skill score. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a088c224e4cb6b94f418967490637aecc"></a>Pc&#160;</td><td class="fielddoc"><p>Minimum of values. </p>
+<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a088c224e4cb6b94f418967490637aecc"></a>Pc&#160;</td><td class="fielddoc"><p>Proportion correct. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a6d0fe17468c413b6d14b4646b668fd41"></a>Bias&#160;</td><td class="fielddoc"><p>Minimum of values. </p>
+<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a6d0fe17468c413b6d14b4646b668fd41"></a>Bias&#160;</td><td class="fielddoc"><p>Bias. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a4aee95c2b891eff740228ebfbacbeb6c"></a>Hss&#160;</td><td class="fielddoc"><p>Minimum of values. </p>
+<tr><td class="fieldname"><a id="a58bc0350ffe93f9116cff6e2ee6a7d01a4aee95c2b891eff740228ebfbacbeb6c"></a>Hss&#160;</td><td class="fielddoc"><p>Heidke skill score. </p>
 </td></tr>
 </table>
 
@@ -2340,8 +2344,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a836d012b8cd84738991532cadc2338bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a836d012b8cd84738991532cadc2338bc">&#9670;&nbsp;</a></span>init_ivec2()</h2>
+<a id="a631bb707c7757265090e384798e7c129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a631bb707c7757265090e384798e7c129">&#9670;&nbsp;</a></span>init_ivec2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2362,7 +2366,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>value</em> = <code><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a></code>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2376,8 +2380,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af0ba1f360e7dcec399bcdb8933bee3bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0ba1f360e7dcec399bcdb8933bee3bd">&#9670;&nbsp;</a></span>init_ivec3()</h2>
+<a id="a0e69a8b88e7116abdb1744580c9ab961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e69a8b88e7116abdb1744580c9ab961">&#9670;&nbsp;</a></span>init_ivec3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2404,7 +2408,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>value</em> = <code><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a></code>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3431,8 +3435,8 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6c4e4a8785ddcbdb0787d59a32fe4ee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c4e4a8785ddcbdb0787d59a32fe4ee6">&#9670;&nbsp;</a></span>optimal_interpolation() <span class="overload">[1/2]</span></h2>
+<a id="a347178353925d2c534775796842ffc1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a347178353925d2c534775796842ffc1e">&#9670;&nbsp;</a></span>optimal_interpolation() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3483,13 +3487,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max_points</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>cross_validation_distance</em> = <code><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a></code>&#160;</td>
+          <td class="paramname"><em>max_points</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3510,15 +3508,14 @@ SWIG testing functions</h2></td></tr>
     <tr><td class="paramname">pbackground</td><td>Background with observation operator </td></tr>
     <tr><td class="paramname">structure</td><td>Structure function </td></tr>
     <tr><td class="paramname">max_points</td><td>Maximum number of observations to use inside localization zone; Use 0 to disable </td></tr>
-    <tr><td class="paramname">cross_validation_distance</td><td>Exclude observations within this distance of the gridpoint [m] </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ac16a068f037d16ebf3d7755d15a75240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac16a068f037d16ebf3d7755d15a75240">&#9670;&nbsp;</a></span>optimal_interpolation() <span class="overload">[2/2]</span></h2>
+<a id="aa38efbe48a09e961d2e7763ac4bb4958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa38efbe48a09e961d2e7763ac4bb4958">&#9670;&nbsp;</a></span>optimal_interpolation() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3569,13 +3566,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max_points</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>cross_validation_distance</em> = <code><a class="el" href="namespacegridpp.html#a19e2d1cc4815ea77534845d6ca8297fa">MV</a></code>&#160;</td>
+          <td class="paramname"><em>max_points</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3596,15 +3587,14 @@ SWIG testing functions</h2></td></tr>
     <tr><td class="paramname">pbackground</td><td>Background with observation operator </td></tr>
     <tr><td class="paramname">structure</td><td>Structure function </td></tr>
     <tr><td class="paramname">max_points</td><td>Maximum number of observations to use inside localization zone; Use 0 to disable </td></tr>
-    <tr><td class="paramname">cross_validation_distance</td><td>Exclude observations within this distance of the gridpoint [m] </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a7818a287bbc29e8ddddecc04476634a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7818a287bbc29e8ddddecc04476634a2">&#9670;&nbsp;</a></span>optimal_interpolation_ensi()</h2>
+<a id="a84aca91d4dcd86e44dcd933ad9253c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84aca91d4dcd86e44dcd933ad9253c0c">&#9670;&nbsp;</a></span>optimal_interpolation_ensi() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3619,7 +3609,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespacegridpp.html#ac38434e47860cc2855428191d742d5c9">vec3</a> &amp;&#160;</td>
-          <td class="paramname"><em>input</em>, </td>
+          <td class="paramname"><em>background</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3679,8 +3669,72 @@ SWIG testing functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3be1d5748d4f0957cbdbb7534a11bb5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3be1d5748d4f0957cbdbb7534a11bb5f">&#9670;&nbsp;</a></span>optimal_interpolation_transform()</h2>
+<a id="abbceeeb566e1bc0db5342453df21032f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbceeeb566e1bc0db5342453df21032f">&#9670;&nbsp;</a></span>optimal_interpolation_ensi() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> gridpp::optimal_interpolation_ensi </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;&#160;</td>
+          <td class="paramname"><em>bpoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>background</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>pobs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>psigmas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a133369f5f7865bff1f5d1bcaa86caf3d">vec2</a> &amp;&#160;</td>
+          <td class="paramname"><em>pbackground</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;&#160;</td>
+          <td class="paramname"><em>structure</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_points</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2dff1131daf0be251602d8071fbf51ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dff1131daf0be251602d8071fbf51ae">&#9670;&nbsp;</a></span>optimal_interpolation_transform() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3719,7 +3773,7 @@ SWIG testing functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
-          <td class="paramname"><em>psigma</em>, </td>
+          <td class="paramname"><em>psigmas</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3754,6 +3808,82 @@ SWIG testing functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This is its own function because the variance parameterization is different than in the non-transformed case. </p>
+
+</div>
+</div>
+<a id="a542aaf75e982d90c4acbc8bc6684fbc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542aaf75e982d90c4acbc8bc6684fbc7">&#9670;&nbsp;</a></span>optimal_interpolation_transform() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> gridpp::optimal_interpolation_transform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;&#160;</td>
+          <td class="paramname"><em>bpoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>background</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>bsigma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Points.html">Points</a> &amp;&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>pobs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>psigmas</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacegridpp.html#a8bdda8fa26486e1ed11454128b2c2ccf">vec</a> &amp;&#160;</td>
+          <td class="paramname"><em>pbackground</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1StructureFunction.html">StructureFunction</a> &amp;&#160;</td>
+          <td class="paramname"><em>structure</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max_points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgridpp_1_1Transform.html">Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>transform</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -4864,7 +4994,7 @@ SWIG testing functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 13 2020 21:28:20 for Gridpp 0.5.0a2 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 27 2020 19:18:04 for Gridpp 0.5.0a2 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
